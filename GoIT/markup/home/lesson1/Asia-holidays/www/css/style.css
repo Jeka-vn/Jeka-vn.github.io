@@ -3,73 +3,23 @@ body {
 	background-size: 100%;
 }
 .wrapper {
-	width: 860px;
 	margin: 0 auto;
+	width: 900px;
 }
 .logo {
-	width: 266px;
+	width: 263px;
 	height: 147px;
-	margin: 0 0  0px;
+	margin: 0 0 0 70px;
 	background-image: url(../img/logo/logo.png);
 }
+.logo img {
+	width: 260px;
+	height: 100px;
+	margin: 50px 0 0 0;
+}
 .contactUS {
-	margin: -80px 0 0 0;
-	line-height: 20px;
 	float: right;
-	color: #fff;
+	margin: -70px 0 0 0;
+	line-height: 19px;
+	color: white;
 }
-.imgyan {
-	margin: 0 20px 0 0;
-	width: 266px;
-	float: left;
-}
-.imgyan, 
-.imgto,
-.imgtru,
-.imgyan1, 
-.imgto1,
-.imgtru1 p {
-	text-align: center;
-	font-size: 19px;
-	color: #fff;
-}
-.img-asia {
-	border: 1px solid white;
-	-webkit-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.75);
-	box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.75);
-}
-.imgtru {
-	margin: 0 0 0 15px;
-}
-.imgtru {
-	float: left;
-}
-.imgto {
-	float: right;
-}
-.imgyan1 {
-	float: left;
-}
-.imgto1 {
-	margin: 40px 0 0 40px;
-	float: left;
-}
-.imgtru1 {
-	float: right;
-}
-.imgyan1 {
-	margin: 40px 0 0 0;
-}
-.imgtru1 {
-	margin: 40px 0 0 0;
-}
-.footer {
-	color: #fff;
-	font-size: 14px;
-	opacity: 0.7;
-	position: relative;
-	left: -28%; top: 180px;
-}
-
-

@@ -1,0 +1,196 @@
+body {
+	background-image: url(../img/backround.jpg);
+}
+.wrapper {
+	width: 1000px;
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 8px 0 0 0;
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+}
+.logo {
+	height: 177px;
+	margin: 17px 0 0 30px;
+	background-image: url(../img/logo/logo.png);
+	background-repeat: no-repeat;
+}
+.contact {
+	float: right;
+	line-height: 20px;
+	color: #5fa5bb;
+	margin: -20px 33px 0 0;
+}
+.our-contacts {
+	font-weight: bold;
+}
+.contries {
+	width: 400px;
+	margin: 70px -160px 0 0;
+	float: right;
+}
+.india,
+.nepal,
+.tibet,
+.bhutan,
+.sri-lanka,
+.maldives {
+	width: 62px;
+	height: 42px;
+	font-size: 12px;
+	background-repeat: no-repeat;
+	line-height: 100px;
+}
+.india,
+.nepal,
+.tibet,
+.bhutan,
+.sri-lanka,
+.maldives, a {
+	color: #128aa7;
+}
+.india a {
+	position: relative;
+	left: 5px;
+}
+.nepal a {
+	position: relative;
+	left: 5px;
+}
+.tibet a{
+	position: relative;
+	left: 5px;
+}
+.bhutan a {
+	position: relative;
+	left: 5px;
+}
+.sri-lanka a {
+	position: relative;
+	right: 10px;
+}
+.maldives a {
+	position: relative;
+	right: 8px;
+}
+.india {
+	margin: 10px 0 0 20px;
+	background-image: url(../img/contries/india.png);
+}
+.nepal {
+	margin: -42px 0 0 90px;
+	background-image: url(../img/contries/nepal.png);
+}
+.tibet {
+	margin: -42px 0 0 155px;
+	background-image: url(../img/contries/tibet.png);
+}
+.bhutan {
+	margin: -42px 0 0 225px;
+	background-image: url(../img/contries/bhutan.png);
+}
+.sri-lanka {
+	margin: -42px 0 0 295px;
+	background-image: url(../img/contries/sri-lanka.png);
+}
+.maldives {
+	margin: -42px 0 0 360px;
+	background-image: url(../img/contries/maldives.png);
+}
+.logo-beach {
+	width: 1000px;
+	height: 237px;
+	margin: -27px 0 0 0;
+	border-top: 1px solid #128aa7;
+	border-bottom: 1px solid #128aa7;
+	background-image: url(../img/logo/sea-background.jpg);
+}
+.top-menu {
+	width: 1000px;
+	height: 28px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid black;
+	background: #373737;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM3MzczNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMDMwMzAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #373737 0%, #303030 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#373737), color-stop(100%,#303030));
+	background: -webkit-linear-gradient(top,  #373737 0%,#303030 100%);
+	background: -o-linear-gradient(top,  #373737 0%,#303030 100%);
+	background: -ms-linear-gradient(top,  #373737 0%,#303030 100%);
+	background: linear-gradient(to bottom,  #373737 0%,#303030 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#303030',GradientType=0 );
+
+}
+/*меню*/
+.top-menu ul li {
+	float: left;
+	height: 20px;
+	margin: 5px 20px 0 35px;
+	cursor: pointer;
+	position: relative;
+	z-index: 1;
+	color: #fff;
+	padding: 0 5px;
+}
+.top-menu span {
+	font-size: 10px;
+}
+.top-menu ul li ul {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 29x;
+	margin: 0;
+	width: 170px;
+	background: #373737;
+	border: 1px solid #000;
+}
+.top-menu ul li ul li {
+	float: none;
+	display: block;
+	background: none;
+	border-bottom: 1px solid #CCC;
+}
+.top-menu ul li:hover ul {
+	display: block;
+}  
+/*сcontent right left*/
+.content-right,
+.content-left {
+	width: 206px;
+	min-height: 550px;
+	max-height: 57560px;
+	border: 1px solid #c7cacf;
+	background-color: #edeef0;
+}
+.content-right {
+	float: left;
+}
+.news {
+	width: 584px;
+	min-height: 552px;
+	max-height: 552px;
+	display: inline-block;
+	background-color: #fff;
+}
+.content-left {
+	float: right;
+}
+.footer
+{
+	margin: 5px 5 0 0;
+}
+.copy {
+	color: #fff;
+	text-align: center;
+	margin: 5px;
+
+}
+
+
+
+
+
+
+

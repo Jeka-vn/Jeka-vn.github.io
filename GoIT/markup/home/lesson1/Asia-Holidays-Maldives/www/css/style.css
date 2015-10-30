@@ -16,6 +16,10 @@ body {
 	background-image: url(../img/logo/logo.png);
 	background-repeat: no-repeat;
 }
+.logo img {
+	width: 260px;
+	height: 147px;
+}
 .contact {
 	float: right;
 	line-height: 20px;
@@ -68,11 +72,11 @@ body {
 }
 .sri-lanka a {
 	position: relative;
-	right: 10px;
+	right: 8px;
 }
 .maldives a {
 	position: relative;
-	right: 8px;
+	right: 5px;
 }
 .india {
 	margin: 10px 0 0 20px;
@@ -97,6 +101,13 @@ body {
 .maldives {
 	margin: -42px 0 0 360px;
 	background-image: url(../img/contries/maldives.png);
+}
+.contries img {
+	width: 42px;
+	height: auto;
+	position: absolute;
+  bottom: 10px;
+
 }
 .logo-beach {
 	width: 1000px;
@@ -126,12 +137,12 @@ body {
 .top-menu ul li {
 	float: left;
 	height: 20px;
-	margin: 5px 20px 0 35px;
+	margin: 3px 20px 0 35px;
 	cursor: pointer;
 	position: relative;
 	z-index: 1;
 	color: #fff;
-	padding: 0 5px;
+	padding: 0 05px;
 }
 .top-menu span {
 	font-size: 10px;
@@ -140,9 +151,9 @@ body {
 	display: none;
 	position: absolute;
 	left: 0;
-	top: 29x;
+	top: 20px;
 	margin: 0;
-	width: 170px;
+	width: 120px;
 	background: #373737;
 	border: 1px solid #000;
 }
@@ -150,9 +161,19 @@ body {
 	float: none;
 	display: block;
 	background: none;
-	border-bottom: 1px solid #CCC;
+}
+#menu a {
+	text-decoration: none;
+	margin: 0 0 0 -30px;
+}
+#menu li a {
+	color: #fff;
+}
+#menu li:hover {
+	color: #ebeaea;
 }
 .top-menu ul li:hover ul {
+	border-radius: 0 0 2px 2px;
 	display: block;
 }  
 /*сcontent right left*/

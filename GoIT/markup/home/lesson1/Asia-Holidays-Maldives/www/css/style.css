@@ -106,7 +106,7 @@ body {
 	width: 42px;
 	height: auto;
 	position: absolute;
-  bottom: 10px;
+	bottom: 10px;
 
 }
 .logo-beach {
@@ -177,27 +177,33 @@ body {
 	display: block;
 }  
 /*сcontent right left*/
-.content-right,
-.content-left {
-	width: 206px;
-	min-height: 550px;
-	max-height: 57560px;
+.content {
+	width: 1000px;
+  min-height: 541px;
+	margin: 30px 0 0 0;
+	background-color: #fff;
+}
+.box-left {
+	width: 208px;
+min-height: 541px;
+  float: left;
+}
+.news {
+	width: 577px;
+	min-height: 541px;
+	margin: 5px auto;
+}
+.box-right {
+	width: 208px;
+	min-height: 541px;
+	float: right;
+}
+.box-right,
+.box-left {
 	border: 1px solid #c7cacf;
 	background-color: #edeef0;
 }
-.content-right {
-	float: left;
-}
-.news {
-	width: 584px;
-	min-height: 552px;
-	max-height: 552px;
-	display: inline-block;
-	background-color: #fff;
-}
-.content-left {
-	float: right;
-}
+
 .footer
 {
 	margin: 5px 5 0 0;
@@ -208,10 +214,3 @@ body {
 	margin: 5px;
 
 }
-
-
-
-
-
-
-

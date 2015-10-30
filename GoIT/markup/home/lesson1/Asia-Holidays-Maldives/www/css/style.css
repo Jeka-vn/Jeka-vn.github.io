@@ -185,7 +185,7 @@ body {
 }
 .box-left {
 	width: 208px;
-min-height: 541px;
+min-height: 539px;
   float: left;
 }
 .news {
@@ -195,7 +195,7 @@ min-height: 541px;
 }
 .box-right {
 	width: 208px;
-	min-height: 541px;
+	min-height: 539px;
 	float: right;
 }
 .box-right,

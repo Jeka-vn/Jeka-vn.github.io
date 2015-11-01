@@ -1,0 +1,120 @@
+body {
+	background-color: #f1f1f1;
+}
+.line-top {
+	width: 100%;
+	height: 100px;
+	background-color: #e1e1e1
+}
+.logo {
+	width: 570px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 30px 0 0 30px;
+	background-color: #53545e;
+}
+.logo-img {
+	width: 155px;
+	height: 33px;
+	background-image: url(../img/logo/gusto.png);
+}
+.logo-text {
+	margin: -20px 30px 0 0;
+	float: right;
+	color: #fff;
+	font-weight: bold;
+}
+.logo-text span {
+	opacity: 0.6;
+}
+.content {
+	width: 540px;
+	margin: 0 auto;
+	padding: 30px 30px 40px 30px;
+	background-color: #fff;
+}
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #53545e;
+	padding: 10px 0 20px 0;
+}
+p {
+	color: #bfc0c3;
+	line-height: 20px;
+	padding: 0 0 30px 0;
+}
+a {
+	color: #fff;
+	padding: 7px 15px 7px 15px;
+	text-decoration: none;
+	background-color: #53545e;
+}
+.Small-Items-left {
+	width: 255px;
+	padding: 40px 0 0 0;
+}
+.Small-Items-right {
+	margin: -258px 0 0 0;
+	width: 255px;
+	float: right;
+}
+.ad-spase {
+	clear: both;
+	width: 560px;
+	height: 170px;
+}
+.ad-spase img {
+	margin: 50px 0 0 0;
+	padding: 0 24px 0 0;
+}
+.Blog-Post-Title-One {
+	margin: 60px 0 0 0;
+}
+.Blog-Post-Title-Two {
+	margin: 30px 0 0 0;
+}
+.footer {
+	width: 100%;
+	height: 371px;
+	background-color: #e1e1e1;
+}
+.footer-content{
+	width: 540px;
+	margin: 0 auto;
+	padding: 0 30px 0 30px;
+background-color: #fff;
+}
+.footer-soc-img {
+	width: 342px;
+	height: 34px;
+	float: right;
+	margin: -45px 0 0 0;
+	background-image: url(../img/content/social.png);
+}
+.footer-info {
+	width: 540px;
+	height: 180px;
+	padding: 30px 30px 0 30px;
+	margin: 0 auto;
+	background-color: #53545e;
+}
+.footer-text-left {
+	width: 340px;
+}
+.footer-link-right {
+margin: -120px 20px 0 0;
+	float: right;
+}
+.footer-link-right li {
+	line-height: 25px;
+}
+.footer-Copyright {
+	border-top: 1px solid white;
+	padding: 20px 0 0 0;
+}
+.footer-link {
+	color: #fff;
+	float: right;
+	margin: -48px 0 0 0;
+}

@@ -137,7 +137,7 @@ body {
 .top-menu ul li {
 	float: left;
 	height: 20px;
-	margin: 3px 20px 0 35px;
+	margin: 3px 20px 0 40px;
 	cursor: pointer;
 	position: relative;
 	z-index: 1;
@@ -167,13 +167,17 @@ body {
 	margin: 0 0 0 -30px;
 }
 #menu li a {
+	padding: 5px 0 0 0;
 	color: #fff;
+}
+#menu li a:hover {
+	color: #ebeaea;
 }
 #menu li:hover {
 	color: #ebeaea;
 }
 .top-menu ul li:hover ul {
-	border-radius: 0 0 2px 2px;
+	border-radius: 0 0 5px 5px;
 	display: block;
 }  
 .content {
@@ -205,7 +209,6 @@ body {
 	border: 1px solid #c7cacf;
 	background-color: #edeef0;
 }
-
 .footer
 {
 	margin: 5px 5 0 0;
@@ -214,5 +217,4 @@ body {
 	color: #fff;
 	text-align: center;
 	margin: 5px;
-
 }

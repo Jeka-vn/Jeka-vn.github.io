@@ -120,6 +120,7 @@ body {
 .top-menu {
 	width: 1000px;
 	height: 28px;
+	padding: 6px 0 6px 0;
 	border-top: 1px solid white;
 	border-bottom: 1px solid black;
 	background: #373737;
@@ -131,7 +132,6 @@ body {
 	background: -ms-linear-gradient(top,  #373737 0%,#303030 100%);
 	background: linear-gradient(to bottom,  #373737 0%,#303030 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#303030',GradientType=0 );
-
 }
 /*меню*/
 .top-menu ul li {
@@ -176,26 +176,28 @@ body {
 	border-radius: 0 0 2px 2px;
 	display: block;
 }  
-/*сcontent right left*/
 .content {
 	width: 1000px;
-  min-height: 541px;
+	min-height: 541px;
 	margin: 30px 0 0 0;
 	background-color: #fff;
 }
 .box-left {
-	width: 208px;
-min-height: 539px;
-  float: left;
+	width: 188px;
+	min-height: 519px;
+	padding: 10px;
+	float: left;
 }
 .news {
-	width: 577px;
-	min-height: 541px;
+	width: 557px;
+	min-height: 521px;
+	padding: 10px;
 	margin: 5px auto;
 }
 .box-right {
-	width: 208px;
-	min-height: 539px;
+	width: 188px;
+	min-height: 519px;
+	padding: 10px;
 	float: right;
 }
 .box-right,

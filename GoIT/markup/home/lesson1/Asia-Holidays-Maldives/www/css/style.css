@@ -137,7 +137,8 @@ body {
 .top-menu ul li {
 	float: left;
 	height: 20px;
-	margin: 3px 20px 0 40px;
+	line-height: 6px;
+	margin: 9px 20px 0 40px;
 	cursor: pointer;
 	position: relative;
 	z-index: 1;
@@ -151,7 +152,7 @@ body {
 	display: none;
 	position: absolute;
 	left: 0;
-	top: 27px;
+	top: 21px;
 	margin: 0;
 	width: 120px;
 	background: #373737;

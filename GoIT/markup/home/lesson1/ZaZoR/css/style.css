@@ -8,26 +8,26 @@ body {
 }
 .tel {
 	float: left;
-	border: 1px solid black;
 	width: 250px;
-	margin: 21px 0 0 0;
+	height: 22px;
+	margin: 31px 0 0 10px;
 	padding: 0 0 0 25px;
 	background-image: url(../img/telephone.png);
 	background-repeat: no-repeat;
 	font-weight: 600;
 	color: #5e696d;
 }
-.tel > span {
+.tel span {
 	margin: 0 5px 0 0;
 }
 .avtoriceichen {
 	width: 475px;`
 	border-top: 1px solid #a6c3cf;
 	border-bottom: 1px solid #596d81; 
-	margin: 21px 0 0 0;
+	margin: 21px 120px 0 0;
 	float: right;
 	border-radius: 5px;
-	padding: 0 0 0 25px;
+	padding: 2px 0 0 25px;
 	box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.21);
 	color: #fff;
 	font-size: 10px;
@@ -42,7 +42,19 @@ body {
 	background: linear-gradient(to bottom,  #206988 0%,#0d3458 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#206988', endColorstr='#0d3458',GradientType=0 );
 }
+.avtoriceichen span {
+	float: right;
+	line-height: 20px;
+	margin: -25px 115px 0 0;
+}
+.avtoriceichen a.recall {
+	float: right;
+	color: #bfbfbf;
+	line-height: 20px;
+	margin: -25px 10px 0 0;
+}
 .login {
+	width: 120px;
 	height: 12px;
 }
 .avtoriceichen-img {
@@ -51,4 +63,75 @@ body {
 	margin: -20px 0 0 -19px;
 	background-repeat: no-repeat;
 	background-image: url(../img/avtorice.png);
+}
+.navi {
+	width: 76px;
+	height: 22px;
+	border: 1px solid #c1c8cb;
+	float: right;
+	margin: 0 20px 0 0;
+	position: relative;
+	bottom: 25px;
+	border-radius: 10px;
+	background-image: url(../img/navi/navi-img.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.logo {
+	width: 909px;
+	height: 237px;
+	clear: both;
+	position: relative;
+	bottom: 10px;
+	background-image: url(../img/logo/logo.jpg);
+}
+.nav-top {
+	height: 32px;
+	border: 1px solid #2c345a;
+	border-radius: 5px;
+	background-image: url(../img/menu/top-menu.jpg);
+	background-repeat: repeat-x;
+}
+.nav-top li {
+	display: inline;
+	margin: 0 15px 0 0;
+}
+.nav-top {
+	padding: 0 0 0 50px;
+}
+.nav-top a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600; 
+	font-size: 12px;
+	line-height: 30px;
+	padding: 4px 16px 4px 16px;
+	text-transform: uppercase;
+}
+.nav-top a:hover {
+	border-radius: 10px;
+	padding: 4px 16px 4px 16px;
+	background: #1f6787;
+	background: -moz-linear-gradient(top,  #1f6787 0%, #0d3458 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1f6787), color-stop(100%,#0d3458));
+	background: -webkit-linear-gradient(top,  #1f6787 0%,#0d3458 100%);
+	background: -o-linear-gradient(top,  #1f6787 0%,#0d3458 100%);
+	background: -ms-linear-gradient(top,  #1f6787 0%,#0d3458 100%);
+	background: linear-gradient(to bottom,  #1f6787 0%,#0d3458 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f6787', endColorstr='#0d3458',GradientType=0 );
+}
+.search-settings {
+	margin: 10px 0 0 0;
+}
+.Search-for-cars,
+.search-tires,
+.search-wheels {
+	display: inline-block;
+	height: 132px;
+	border: 1px solid #b6b6b7;
+	border-radius: 15px;
+	background-color: #fff;
+	-webkit-box-shadow: 4px 7px 5px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 4px 7px 5px -3px rgba(0,0,0,0.75);
+	box-shadow: 4px 7px 5px -3px rgba(0,0,0,0.75);
 }

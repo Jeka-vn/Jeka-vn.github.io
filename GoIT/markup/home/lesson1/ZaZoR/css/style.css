@@ -1,0 +1,54 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.wrapper {
+	width: 910px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.tel {
+	float: left;
+	border: 1px solid black;
+	width: 250px;
+	margin: 21px 0 0 0;
+	padding: 0 0 0 25px;
+	background-image: url(../img/telephone.png);
+	background-repeat: no-repeat;
+	font-weight: 600;
+	color: #5e696d;
+}
+.tel > span {
+	margin: 0 5px 0 0;
+}
+.avtoriceichen {
+	width: 475px;`
+	border-top: 1px solid #a6c3cf;
+	border-bottom: 1px solid #596d81; 
+	margin: 21px 0 0 0;
+	float: right;
+	border-radius: 5px;
+	padding: 0 0 0 25px;
+	box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.21);
+	color: #fff;
+	font-size: 10px;
+	font-weight: 600;
+	line-height: 24px;
+	background: #206988;
+	background: -moz-linear-gradient(top,  #206988 0%, #0d3458 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#206988), color-stop(100%,#0d3458));
+	background: -webkit-linear-gradient(top,  #206988 0%,#0d3458 100%);
+	background: -o-linear-gradient(top,  #206988 0%,#0d3458 100%);
+	background: -ms-linear-gradient(top,  #206988 0%,#0d3458 100%);
+	background: linear-gradient(to bottom,  #206988 0%,#0d3458 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#206988', endColorstr='#0d3458',GradientType=0 );
+}
+.login {
+	height: 12px;
+}
+.avtoriceichen-img {
+	width: 20px;
+	height: 20px;
+	margin: -20px 0 0 -19px;
+	background-repeat: no-repeat;
+	background-image: url(../img/avtorice.png);
+}

@@ -1,5 +1,5 @@
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif, tahoma;
 }
 .wrapper {
 	width: 900px;
@@ -20,6 +20,7 @@ body {
 }
 .authorization {
 	position: relative;
+	right: 120px;
 	bottom: 40px;
 	float: right;
 	width: 495px;
@@ -77,6 +78,23 @@ a.registration {
 a.registration {
 	color: white;
 	text-decoration: none;
+}
+.map-site {
+	width: 74px;
+	height: 19px;
+	border-radius: 10px;
+	border: 1px solid #c1c8cb;
+	position: relative;
+	left: 100px;
+	bottom: 17px;
+	float: right;
+	-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.45);
+	-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.45);
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.45);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../img/navi/navi-img.png);
+	
 }
 .logo {
 	width: 900px;
@@ -147,9 +165,9 @@ a.registration {
 .seach-for-auto,
 .search-tires,
 .search-wheels {
-	height: 103px;
+	height: 113px;
 	display: inline-block;
-	padding: 15px;
+	padding: 10px 15px 15px 10px;
 	border-radius: 10px;
 	-webkit-box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.75);
@@ -157,14 +175,15 @@ a.registration {
 }
 .seach-for-auto {
 	float: left;
-	width: 370px;
+	width: 380px;
 	margin: 10px 15px 0 5px;
 }
-.name-seach-auto p {
+.name-seach-auto, 
+.search-tires p {
 	width: 370px;
-font-size: 10px;
-font-weight: bold;
-color: #154467;
+	font-size: 10px;
+	font-weight: bold;
+	color: #154467;
 }
 .name-seach-auto span {
 	font-size: 11px;
@@ -180,17 +199,53 @@ color: #154467;
 	float: right;
 	width: 236px;
 }
-.wheels {
-/*	border: 1px solid #000;*/
+.wheels,
+.seach-auto {
+	float: left;
+		border: 1px solid #000;
 	width: 70px;
 	height: 93px;
-
+	margin: 0 0 0 10px;
 }
 .wheels p {
-		padding: 7px 0 0 0;
+	padding: 7px 0 0 0;
 	font-size: 9px;
 	font-weight: bold;
 }
+.seach-auto p {
+	padding: 7px 0 0 0;
+	font-size: 9px;
+	font-weight: bold;
+}
+.seach-auto span {
+	color: #77858b;
+}
 .wheels span {
 	color: #77858b;
+}
+.select {
+	float: left;
+	width: 102px;
+}
+.min-select {
+	width: 102px;
+}
+select {
+	width: 100px;
+	height: 16px;
+	margin: 3px 0 0 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	text-indent: 0.01px; 
+	text-overflow: '';
+	-ms-appearance: none;
+	appearance: none!important;
+	border-radius: 1px;
+	background-image: url('../img/menu/select.png');
+  background-position: right center;
+  background-repeat: no-repeat;
+
+}
+.min-select select {
+	width: 60px;
 }

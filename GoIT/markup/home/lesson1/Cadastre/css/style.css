@@ -68,7 +68,7 @@ body {
 .form {
 	width: 561px;
 	height: 614px;
-	margin: 10% auto;
+	margin: 1% auto;
 	border-radius: 4px;
 	background-color: rgba(0, 0, 0, 0.5);
 }
@@ -111,7 +111,7 @@ body {
 	margin: 0 0 0 40px;
 	color: white;
 	text-decoration: none;
-		position: relative;
+	position: relative;
 	bottom: 4px;
 }
 .fb span {

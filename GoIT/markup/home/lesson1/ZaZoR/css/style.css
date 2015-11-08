@@ -111,7 +111,6 @@ a.registration {
 .top-menu {
 	margin: 10px 0 0 1px;
 	height: 32px;
-	border: 1px solid #2c345a;
 	border-radius: 5px;
 	background-image: url(../img/menu/back-menu.gif);
 	background-repeat: repeat-x;
@@ -162,90 +161,78 @@ a.registration {
 	font-size: 12px;
 	color: #0d5a8f;
 }
-.seach-for-auto,
-.search-tires,
-.search-wheels {
-	height: 113px;
-	display: inline-block;
-	padding: 10px 15px 15px 10px;
+.seach-avto,
+.search-wheels,
+.search-rims {
+	padding: 10px;
+	margin: 10px 10px 0 10px;
 	border-radius: 10px;
-	-webkit-box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.75);
-	box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.75);
-}
-.seach-for-auto {
+	height: 114px;
 	float: left;
-	width: 380px;
-	margin: 10px 15px 0 5px;
+	border: 1px solid #000;
 }
-.name-seach-auto, 
-.search-tires p {
-	width: 370px;
-	font-size: 10px;
+.seach-avto {
+	width: 380px;
+}
+.search-wheels {
+	width: 162px;
+}
+.search-rims {
+	width: 230px;
+}
+.seach-name {
+	font-size: 12px;
+	padding: 0 0 5px 0;
 	font-weight: bold;
 	color: #154467;
 }
-.name-seach-auto span {
-	font-size: 11px;
-	padding: 0 79px 0 93px;
-}
-.search-tires {
-	float: left;
-	width: 171px;
-	margin: 10px 10px 0 0;
-}
-.search-wheels {
-	margin: 10px 0 0;
-	float: right;
-	width: 236px;
-}
-.wheels,
-.seach-auto {
-	float: left;
-		border: 1px solid #000;
-	width: 70px;
-	height: 93px;
-	margin: 0 0 0 10px;
-}
-.wheels p {
-	padding: 7px 0 0 0;
-	font-size: 9px;
-	font-weight: bold;
-}
-.seach-auto p {
-	padding: 7px 0 0 0;
-	font-size: 9px;
-	font-weight: bold;
-}
-.seach-auto span {
-	color: #77858b;
-}
-.wheels span {
-	color: #77858b;
-}
-.select {
-	float: left;
-	width: 102px;
+.seach-name span {
+	margin: 0 77px 0 77px;
 }
 .min-select {
-	width: 102px;
+	width: 50px;
 }
-select {
+.name-one {
+	width: 80px;
+	display: inline-block;
+}
+.name-one p {
+	font-size: 12px;
+	margin: 0 0 5px 0;
+}
+.name-one span {
+	color: #77858b;
+}
+.box-select {
 	width: 100px;
-	height: 16px;
-	margin: 3px 0 0 10px;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	text-indent: 0.01px; 
-	text-overflow: '';
-	-ms-appearance: none;
-	appearance: none!important;
-	border-radius: 1px;
-	background-image: url('../img/menu/select.png');
-  background-position: right center;
-  background-repeat: no-repeat;
-
+	display: inline-block;
 }
-.min-select select {
+.box-select select {
+	width: 100px;
+	margin: 0 0 5px 0;
+}
+.box-select .min-select {
 	width: 60px;
+}
+.name-two {
+	width: 50px;
+}
+.name-two p {
+	font-size: 12px;
+	margin: 0 0 10px 0;
+}
+.wheels-select {
+	margin: -65px 0 0 45px;
+}
+.checkbox {
+	font-size: 11px;
+	margin: 0 0 0 35px;
+	width: 50px;
+	display: inline-block;
+}
+.wheels-select>.min-select {
+	margin: 0 0 5px 0;
+}
+.checkbox input {
+	margin: 0;
 }

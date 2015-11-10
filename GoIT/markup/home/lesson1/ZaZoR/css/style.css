@@ -351,3 +351,23 @@ select {
 	line-height: 25px;
 	text-transform: uppercase;
 }
+.tire {
+	width: 148px;
+	height: 27px;
+	margin: 20px 0 0 10px;
+	border: 1px solid #869297;
+	border-radius: 20px;
+	background: url(../img/menu-left/tire.png) no-repeat 3px 2px;
+}
+.tire p {
+	padding: 0 0 0 30px;
+	text-transform: uppercase;
+	line-height: 30px;
+	color: #114165;
+}
+.tire ul {
+	margin: 10px 0 0 30px;
+}
+.tire li {
+	padding: 0 0 5px 0;
+}

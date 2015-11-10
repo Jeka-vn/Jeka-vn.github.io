@@ -1,8 +1,6 @@
 body {
 	font-family: "tahoma";
-	background-image: url(../img/background.jpg);
-	background-position: top center;
-	background-repeat: no-repeat;
+	background: url(../img/background.jpg) top center no-repeat;
 }
 .wrapper {
 	max-width: 1920px;
@@ -10,8 +8,7 @@ body {
 .top-menu {
 	max-width: 1920px;
 	height: 36px;
-	background-image: url(../img/top-menu.png);
-	background-repeat: repeat-x;
+	background: url(../img/top-menu.png) repeat-x;
 }
 .menu-link {
 	float: right;
@@ -41,13 +38,15 @@ body {
 .milhas {
 	float: right;
 	color: white;
-	width: 350px;
+	width: 370px;
 	height: 24px;
 	margin: 7px 0 0 0;
 	padding: 0 0 0 50px;
 	border-left: 1px solid white;
-	background-repeat: no-repeat;
-	background-image: url(../img/flag.png);
+	background: url(../img/flag.png) no-repeat;
+}
+.milhas p {
+	display: inline-block;
 }
 .milhas a {
 	text-decoration: underline;
@@ -63,13 +62,12 @@ body {
 	background: -o-linear-gradient(top,  #51b1dc 0%,#2e7ac4 100%);
 	background: -ms-linear-gradient(top,  #51b1dc 0%,#2e7ac4 100%);
 	background: linear-gradient(to bottom,  #51b1dc 0%,#2e7ac4 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#51b1dc', endColorstr='#2e7ac4',GradientType=0 );
 }
 .form {
 	width: 561px;
 	height: 614px;
-	position	: absolute;
-	top		: 50%;
+	position: absolute;
+	top: 50%;
 	left: 50%;
 	margin: -280px 0 0 -305px;
 	border-radius: 4px;
@@ -95,8 +93,6 @@ body {
 	background: -o-linear-gradient(top,  #405690 0%,#2c4176 100%);
 	background: -ms-linear-gradient(top,  #405690 0%,#2c4176 100%);
 	background: linear-gradient(to bottom,  #405690 0%,#2c4176 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#405690', endColorstr='#2c4176',GradientType=0 );
-
 }
 .fb p {
 	display: inline-block;
@@ -107,7 +103,6 @@ body {
 	position: relative;
 	left: 10px;
 	top: 2px;
-
 	border-right: 1px solid #4c66a3;
 }
 .fb a {
@@ -130,11 +125,11 @@ body {
 .input {
 	margin: 0 auto;
 }
-.input input {
-	width: 268px;
+.input {
+	width: 258px;
 	height: 37px;
 	color: white;
-	padding: 0 0 0 10px;
+	padding: 0 10px 0 10px;
 	margin: 0 0 15px 140px;
 	background-color: #0f0f0f;
 	border-left: 0;
@@ -148,19 +143,16 @@ input:focus {
 	-moz-box-shadow: 0px 0px 6px 1px rgba(74,134,177,1);
 	box-shadow: 0px 0px 6px 1px rgba(74,134,177,1);
 }
-input:focus:-ms-input-placeholder{
+input:focus:-ms-input-placeholder {
 	color: transparent;
 }
-input:focus::-moz-placeholder{
+input:focus::-moz-placeholder {
 	color: transparent;
 }
-input:focus:-moz-placeholder{
+input:focus:-moz-placeholder {
 	color: transparent;
 }
-input:focus::-webkit-input-placeholder{
-	color: transparent;
-}
-input:focus:placeholder-shown{
+input:focus::-webkit-input-placeholder {
 	color: transparent;
 }
 [name="Youbike"] {
@@ -182,7 +174,6 @@ button {
 	background: -o-linear-gradient(top,  #50aedb 0%,#2e7ac4 100%);
 	background: -ms-linear-gradient(top,  #50aedb 0%,#2e7ac4 100%);
 	background: linear-gradient(to bottom,  #50aedb 0%,#2e7ac4 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50aedb', endColorstr='#2e7ac4',GradientType=0 );
 }
 .button-above {
 	width: 311px;

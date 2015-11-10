@@ -1,238 +1,353 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
 body {
-	font-family: 'Open Sans', sans-serif, tahoma;
+	font-family: 'Roboto', sans-serif;
+	color: #5e696d;
 }
+a {
+	text-decoration: none;
+}
+/*header*/
 .wrapper {
-	width: 900px;
-	margin: 0 auto;
+	width: 910px;
+	margin: auto;
+}
+.telephon,
+.avtorisacion,
+.name-select {
+	display: inline-block;
 }
 .telephone {
-	position: relative;
-	bottom: 55px;
-	font-weight: 600;
-	color: #5e696d;
-	float: left;
-	line-height: 18px;
-	margin: 20px 0 0 0;
+	height: 21px;
+	margin: 20px 0 0 9px;
 	padding: 0 0 0 25px;
-	height: 22px;
+	line-height: 22px;
+	float: left;
 	background-image: url(../img/telephone.png);
 	background-repeat: no-repeat;
 }
-.authorization {
-	position: relative;
-	right: 120px;
-	bottom: 40px;
-	float: right;
+.avtorisacion {
 	width: 495px;
 	height: 27px;
+	float: left;
+	margin: 14px 0 0 50px;
 	border-radius: 5px;
-	-webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.4);
-	-moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.4);
-	box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.4);
-	background: #1f6787;
-	background: -moz-linear-gradient(top,  #1f6787 0%, #0c3357 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1f6787), color-stop(100%,#0c3357));
-	background: -webkit-linear-gradient(top,  #1f6787 0%,#0c3357 100%);
-	background: -o-linear-gradient(top,  #1f6787 0%,#0c3357 100%);
-	background: -ms-linear-gradient(top,  #1f6787 0%,#0c3357 100%);
-	background: linear-gradient(to bottom,  #1f6787 0%,#0c3357 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f6787', endColorstr='#0c3357',GradientType=0 );
+	background: rgba(31,104,135,1);
+	background: -moz-linear-gradient(top, rgba(31,104,135,1) 0%, rgba(12,51,87,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(31,104,135,1)), color-stop(100%, rgba(12,51,87,1)));
+	background: -webkit-linear-gradient(top, rgba(31,104,135,1) 0%, rgba(12,51,87,1) 100%);
+	background: -o-linear-gradient(top, rgba(31,104,135,1) 0%, rgba(12,51,87,1) 100%);
+	background: -ms-linear-gradient(top, rgba(31,104,135,1) 0%, rgba(12,51,87,1) 100%);
+	background: linear-gradient(to bottom, rgba(31,104,135,1) 0%, rgba(12,51,87,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f6887', endColorstr='#0c3357', GradientType=0 );
 }
-.authorization_img {
-	color: white;
-	font-size: 12px
-	font-weight: 600;
+.avtorisacion-img {
 	height: 18px;
-	margin: 1px 0 0 8px;
+	margin: 4px 0 0 7px;
 	background-repeat: no-repeat;
 	background-image: url(../img/avtorice.png);
 }
-.authorization_img label {
-	margin: 0 0 0 10px;
-	line-height: 17px;
+.avtorisacion form {
+	margin: 0 0 0 17px;
 }
-.authorization_img form {
-	margin: 0 0 0 18px;
+.login input {
+	width: 110px;
+	height: 13px;
 }
-.authorization_img input {
-	margin: 2px 0 0 0;
-	width: 113px;
-	height: 12px;
+.submit input {
+	border:0;
+	padding: 0;
+	color: #fff;
+	font-weight: bold;
+	font-size: 11px;
+	background-color: transparent;
+	position: relative;
+	left: 239px;
+	bottom: 19px;
 }
-.pass {
-	margin: 0 0 0 10px;
+.reg {
+	display: inline;
+	font-size: 11px;
+	font-weight: bold;
+	display: inline;
+	position: relative;
+	left: 295px;
+	bottom: 35px;
+}
+a.pass {
+	margin: 0 0 0 12px;
 	font-size: 10px;
 	color: #bfbfbf;
+	text-decoration: underline;
 }
-.button,
-a.registration {
-	font-size: 11px;
-	font-weight: 100;
-	line-height: 15px;
+.reg span {
+	line-height: 20px;
+	color: #fff;
 }
-.button {
-	color: white;
-	border: 0;
-	background-color: transparent;
+.reg a {
+	color: #fff;
 }
-a.registration {
-	color: white;
-	text-decoration: none;
-}
-.map-site {
-	width: 74px;
-	height: 19px;
-	border-radius: 10px;
-	border: 1px solid #c1c8cb;
-	position: relative;
-	left: 100px;
-	bottom: 17px;
+.site-map {
 	float: right;
-	-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.45);
-	-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.45);
-	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.45);
-	background-position: center;
+	width: 73px;
+	border: 1px solid #bec5c8;
+	height: 19px;
+	margin: 16px 6px 0 0;
+	border-radius: 10px;
+	display: inline-block;
 	background-repeat: no-repeat;
+	background-position: center;
 	background-image: url(../img/navi/navi-img.png);
-	
+}
+.site-map a {
+	display: inline-block;
+	margin: 0 0 0 2px;
+	width: 15px;
+	height: 18px;
 }
 .logo {
-	width: 900px;
+	clear: both;
+	width: 909px;
 	height: 237px;
-	margin: 60px 0 0 0;
+	position: relative;
+	top: 10px;
 	background-image: url(../img/logo/logo.jpg);
 }
-.logo img {
-	position: relative;
-	bottom: 42px;
-	width: 900px;
+.logo a {
+	width: 909px;
 	height: 237px;
+	display: inline-block;
 }
+/*menu*/
 .top-menu {
-	margin: 10px 0 0 1px;
-	height: 32px;
-	border-radius: 5px;
-	background-image: url(../img/menu/back-menu.gif);
+	width: 910px;
+	height: 34px;
+	margin: 19px 0 0 1px;
+	border-radius: 10px;
 	background-repeat: repeat-x;
-}
-.top-menu a {
-	text-decoration: none;
-	color: #b1bcc0;
-	text-transform: uppercase;
-	font-size: 14px;
-	padding: 5px 15px 5px 15px;
-}
-.top-menu a:hover {
-	border-radius: 15px;
-	padding: 2px 15px 2px 15px;
-	background: #1f6787;
-	background: -moz-linear-gradient(top,  #1f6787 0%, #0c3357 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1f6787), color-stop(100%,#0c3357));
-	background: -webkit-linear-gradient(top,  #1f6787 0%,#0c3357 100%);
-	background: -o-linear-gradient(top,  #1f6787 0%,#0c3357 100%);
-	background: -ms-linear-gradient(top,  #1f6787 0%,#0c3357 100%);
-	background: linear-gradient(to bottom,  #1f6787 0%,#0c3357 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f6787', endColorstr='#0c3357',GradientType=0 );
+	background-image: url(../img/menu/back-menu.gif);
 }
 .top-menu ul {
-	margin: 0 0 0 90px;
+	margin: 0 0 0 40px;
 }
 .top-menu li {
+	font-size: 14px;
+	line-height: 32px;
+	margin: 0 0 0 10px;
 	display: inline;
-	line-height: 30px;
-	margin: 0 10px 0 0;
 }
-.magazine {
-	width: 158px;
-	height: 27px;
-	padding: 0 0 0 30px;
+.top-menu a {
+	text-transform: uppercase;
+	color: #b1bcc0;
+	font-weight: normal;
+	padding: 5px 10px 5px 10px;
+
+}
+.top-menu a:hover {
+	border-radius: 20px;
+	padding: 4px 10px 4px 10px;	
+	color: #fff;
+	background: rgba(31,104,135,1);
+	background: -moz-linear-gradient(top, rgba(31,104,135,1) 0%, rgba(12,51,87,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(31,104,135,1)), color-stop(100%, rgba(12,51,87,1)));
+	background: -webkit-linear-gradient(top, rgba(31,104,135,1) 0%, rgba(12,51,87,1) 100%);
+	background: -o-linear-gradient(top, rgba(31,104,135,1) 0%, rgba(12,51,87,1) 100%);
+	background: -ms-linear-gradient(top, rgba(31,104,135,1) 0%, rgba(12,51,87,1) 100%);
+	background: linear-gradient(to bottom, rgba(31,104,135,1) 0%, rgba(12,51,87,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f6887', endColorstr='#0c3357', GradientType=0 );
+}
+.shop {
+	width: 200px;
+	height: 22px;
 	position: relative;
-	bottom: 27px;
-	left: 700px;
+	bottom: 28px;
+	padding: 0 0 0 30px;
+	float: right;
+	display: inline-block;
 	background-repeat: no-repeat;
 	background-image: url(../img/menu/magazine.png);
 }
-.magazine p {
-	font-size: 10px;
-	line-height: 20px;
+.shop p {
 	color: #929b9f;
-}
-.magazine span {
 	font-size: 12px;
+	line-height: 25px;
+}
+.shop span {
 	color: #0d5a8f;
 }
-.seach-avto,
-.search-wheels,
-.search-rims {
-	padding: 10px;
-	margin: 10px 10px 0 10px;
-	border-radius: 10px;
-	height: 114px;
+/*seach*/
+/*stule select*/
+select {
+	background-image: url('../img/menu/select.png');
+	background-position: right center;
+	background-repeat: no-repeat;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	text-indent: 0.01px; 
+	text-overflow: '';
+	-ms-appearance: none;
+	appearance: none!important;
+}
+.seach-for-avto,
+.Search-for-tires,
+.Search-rim {
 	float: left;
-	border: 1px solid #000;
-}
-.seach-avto {
-	width: 380px;
-}
-.search-wheels {
-	width: 162px;
-}
-.search-rims {
-	width: 230px;
-}
-.seach-name {
-	font-size: 12px;
-	padding: 0 0 5px 0;
+	height: 142px;
+	border-radius: 10px;
+	margin: 10px 10px 0 5px;
+	padding: 3px 5px 5px 5px;
+	display: inline-block;
 	font-weight: bold;
+	border: 1px solid #a5a5a6;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.19);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.19);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.19);
+}
+.Search-rim {
+	position: absolute;
+	width: 280px;
+	float: right;
+	margin: 10px 0 0 0px;
+}
+.seach-for-avto {
+	width: 360px;
+}
+.name {
 	color: #154467;
+	font-size: 13px;
+	text-align: center;
 }
-.seach-name span {
-	margin: 0 77px 0 77px;
+.name span {
+	margin: 0 60px 0 60px;
 }
-.min-select {
-	width: 50px;
+.name-select {
+	display: inline-block;
+	font-size: 11px;
+	width: 80px;
+	height: 90px;
+	margin: 5px 0 0 10px;
 }
-.name-one {
+.name-select p {
+	color: black;
+	padding: 5px 0 0 0;
+}
+.name-select span {
+	color: #77858b;
+}
+.max-select {
 	width: 80px;
 	display: inline-block;
 }
-.name-one p {
-	font-size: 12px;
-	margin: 0 0 5px 0;
+.max-select select {
+	width: 80px;
+	height: 18px;
+	margin: 6px 0 0 0;
 }
-.name-one span {
-	color: #77858b;
-}
-.box-select {
-	width: 100px;
-	display: inline-block;
-}
-.box-select select {
-	width: 100px;
-	margin: 0 0 5px 0;
-}
-.box-select .min-select {
+.min-select select {
 	width: 60px;
+	height: 18px;
 }
-.name-two {
+.Search-for-tires>.name-select {
 	width: 50px;
 }
-.name-two p {
-	font-size: 12px;
-	margin: 0 0 10px 0;
+.Search-for-tires>
+.name-select p {
+	margin: 0 0 7px 0;
 }
-.wheels-select {
-	margin: -65px 0 0 45px;
-}
-.checkbox {
-	font-size: 11px;
-	margin: 0 0 0 35px;
-	width: 50px;
+.Search-for-tires>.min-select {
+	width: 140px;
+	position: relative;
+	bottom: 24px;
 	display: inline-block;
 }
-.wheels-select>.min-select {
+.Search-for-tires>.min-select select {
 	margin: 0 0 5px 0;
 }
-.checkbox input {
-	margin: 0;
+.Search-for-tires>form {
+	font-size: 12px;
+	width: 70px;
+	color: black;
+	position: relative;
+	left: 45px;
+	bottom: 39px;
+}
+.Search-rim>.min-select {
+	position: relative;
+	bottom: 20px;
+	display: inline-block;
+	width: 70px;
+}
+.Search-rim>.name-select {
+	width: 90px;
+}
+.Search-rim>.min-select select {
+	margin: 0 0 10px 0;
+	height: 18px;
+}
+.Search-rim>.min-select {
+	position: relative;
+	bottom: 16px;
+	border-right: 1px solid #bdc6ca;
+}
+.seach-for-avto>a {
+	float: right;
+	margin: 12px 5px 0 0;
+	font-style: italic;
+	font-weight: 400;
+	color: #154467;
+	text-decoration: underline;
+}
+.Search-for-tires>a {
+	position: relative;
+	bottom: 40px;
+	float: right;
+	margin: 5px 5px 0 0;
+	font-style: italic;
+	font-weight: 400;
+	color: #154467;
+	text-decoration: underline;
+}
+.Search-rim>a {
+	position: relative;
+	bottom: 10px;
+	float: right;
+	margin: 5px 5px 0 0;
+	font-style: italic;
+	font-weight: 400;
+	color: #154467;
+	text-decoration: underline;
+}
+.Search-for-tires>.name {
+	text-align: left;
+}
+.Search-rim>.name {
+	text-align: left;
+}
+/*directory*/
+.directory {
+	/*	border: 1px solid #000;*/
+	margin: 18px 0 0 0;
+	width: 185px;
+	float: left;
+	clear: both;
+}
+.directory-name {
+	width: 185px;
+	height: 22px;
+	padding: 5px;
+	border: 1px solid #869297;
+	border-radius: 20px;
+	background-position: 3px 5px;
+	background-repeat: no-repeat;
+	background-image: url(../img/menu-left/name-tov.png);
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.19);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.19);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.19);
+}
+.directory-name p {
+	margin: 0 0 0 25px;
+	font-weight: 400;
+	color: #114165;
+	font-size: 14px;
+	line-height: 25px;
+	text-transform: uppercase;
 }

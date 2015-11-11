@@ -17,9 +17,7 @@
 				<form action="" class="login">
 					<input type="text" placeholder="Ваш логин">
 					<input type="text" placeholder="Ваш пароль">
-				</form>
-				<form action="" class="submit">
-					<input type="submit" value="Войти">
+					<input class="submit" type="submit" value="Войти">
 				</form>
 				<div class="reg">
 					<span>|</span>
@@ -46,7 +44,7 @@
 				<li><a href="#">контакты</a></li>
 			</ul>
 			<div class="shop">
-				<p>товаров:<span>0 </span> на сумму <span> 0,00 грн.</span></p>
+				<p>товаров:<span> 0 </span> на сумму <span> 0,00 грн.</span></p>
 			</div>
 		</div>
 		<div class="seach-for-avto">
@@ -190,7 +188,7 @@
 			</div>
 			<div class="tire-box">
 				<div class="tire">
-					<p>шины</p>
+					<p>диски</p>
 					<ul>
 						<li><a href="#">Наименование</a></li>
 						<li><a href="#">Наименование</a></li>
@@ -201,7 +199,7 @@
 			</div>
 			<div class="tire-box">
 				<div class="tire">
-					<p>шины</p>
+					<p>болты</p>
 					<ul>
 						<li><a href="#">Наименование</a></li>
 						<li><a href="#">Наименование</a></li>
@@ -292,26 +290,42 @@
 			<div class="tire-box-right">
 				<div class="tire-right">
 					<p>шины</p>
-						<form action="">
-							<input type="radio"><p>Бренд</p>
-							<input type="radio"><p>Бренд</p>
-							<input type="radio"><p>Бренд</p>
-						</form>
+					<div class="brand">
+						<input id="brand-one" type="radio"><label for="brand-one">Бренд</label>
+						<input id="brand-two" type="radio"><label for="brand-two">Бренд</label>
+						<input id="brand-tree" type="radio"><label for="brand-tree">Бренд</label>
+					</div>
 				</div>
 			</div>
 			<div class="tire-box-right">
 				<div class="tire-right">
-					<p>шины</p>
-					<ul>
-						<li><a href="#">Наименование</a></li>
-						<li><a href="#">Наименование</a></li>
-						<li><a href="#">Наименование</a></li>
-						<li><a href="#">Наименование</a></li>
-					</ul>
+					<p>диски</p>
+					<div class="brand">
+						<input id="brand--one" type="radio"><label for="brand--one">бренд</label>
+						<input id="brand--two" type="radio"><label for="brand--two">бренд</label>
+						<input id="brand--tree" type="radio"><label for="brand--tree">бренд</label>
+						<input class="tire-submit" type="submit" value="Выбрать">
+					</div>
 				</div>
-			</div>
-
+			</div> 
 		</div>
+		<div class="brand-img">
+			<img src="img/glass.png" alt="">
+		</div>
+		<footer>
+			<ul>
+				<li><a href="#">О компании</a></li>
+				<span> | </span>
+				<li><a href="#">Доставка</a></li>
+				<span> | </span>
+				<li><a href="#">Статьи</a></li>
+				<span> | </span>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+			<div class="copyright">
+				<p>Создание сайта &copy; Global vision</p>
+			</div>
+		</footer>
 	</div>
 </body>
 </html>

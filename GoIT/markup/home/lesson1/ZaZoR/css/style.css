@@ -446,7 +446,8 @@ select {
 section {
 	width: 500px;
 	float: left;
-	margin: 18px 0 10px 20px;
+	margin: 18px 0 0 20px;
+	padding: 0 0 10px 0;
 	border-radius: 5px;
 	background: rgba(228,231,232,1);
 	background: -moz-linear-gradient(top, rgba(228,231,232,1) 0%, rgba(147,167,176,1) 100%);

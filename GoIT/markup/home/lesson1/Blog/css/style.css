@@ -1,0 +1,186 @@
+body {
+	background: #2d3844;
+	font-family: Tahoma, Times, Baskerville, Georgia, serif;
+}
+a {
+	text-decoration: none;
+}
+.wrapper {
+	width: 1027px;
+	margin: 11px auto;
+}
+.logo-nav {
+	width: 100%;
+	height: 176px;
+	  border-radius: 0 0 5px 5px;
+	background: #222a33;
+}
+.logo-nav>h1 a {
+	font-size: 40px;
+	position: relative;
+	top: 50px;
+	left: 80px;
+	text-shadow: 0px 0px 3px rgba(150, 150, 150, 1);
+	color: #fff;
+	transition: 0.3s;
+}
+.logo-nav>h1 a:hover {
+	position: relative;
+	top: 50px;
+	left: 77px;
+	color: #c5c5c5;
+	transition: 0.3s;
+	font-size: 41px;
+}
+.nav {
+	width: 280px;
+	display: inline-block;
+	float: right;
+	margin: -20px 60px 0 0;
+}
+.nav>li a {
+	display: inline-block;
+	width: 270px;
+	padding: 6px 0 6px 10px;
+	height: 20px;
+	color: #4d5257;
+	transition: 0.2s;
+	background: #252e38;
+	font-weight: bold;
+}
+.nav>li a:hover {
+	transition: 0.2s;
+	color: #fff;
+	background: #2d3844;
+	padding: 6px 0 6px 10px;
+}
+
+.SIDEBAR {
+	position: relative;
+	top: 60px;
+	right: 70px;
+	float: right;
+	width: 289px;
+}
+.about {
+	border-bottom: 1px solid #414a53;
+}
+.about>h2 {
+	font-size: 18px;
+	margin: 0 0 10px 0;
+	color: #fff;
+}
+.about-me {
+	margin: 5px 0 0 0;
+	border-bottom: 1px solid #414a53;
+}
+.about-me>img {
+	margin: 0 5px 5px 0;
+	float: left;
+	height: 95px;
+}
+.about-me>p {
+	margin: 0 0 5px 0;
+	line-height: 20px;
+	color: #fff;
+	font-size: 12px;
+}
+
+
+
+.content {
+	width: 596px;
+/*	min-height: 940px;*/
+	padding: 20px 20px 60px 20px;
+	border: 2px solid #fff;
+	margin: 20px 0 0 0;
+	border-radius: 10px;
+	background: #ede9dc;
+}
+.box-news {
+	width: 590px;
+	padding: 10px 0 30px 0;
+	border-bottom: 1px solid #c4c3ba;
+}
+.box-news>p {
+	margin: 10px 0 0 0;
+	line-height: 20px;
+}
+.name-news {
+	display: inline-block;
+	width: 590px;
+	height: 45px;
+	/*	border: 1px solid #000;*/
+}
+.name-news .h1>a {
+	font-weight: bold;
+	color: #2d3844;
+}
+.name-news .h1-info {
+	color: #a5a39a;
+	margin: 5px 0 0 0;
+}
+.name-news .h1-info>a {
+	text-decoration: underline;
+	color: #a5a39a;
+}
+.date-news {
+	float: left;
+	display: inline-block;
+	width: 43px;
+	height: 42px;
+	margin: 0 10px 0 0;
+	text-align: center;
+	border-radius: 5px;
+	background: url(../img/date-backgroud.jpg) repeat-x;
+	border: 1px solid #fff;
+}
+.number,
+.month {
+	display: inline-block;
+} 
+.number {
+	padding: 0 5px 0 5px;
+	margin: 4px 0 2px 0;
+	color: #ede9dc;
+}
+.month {
+	font-size: 12px;
+	color: #82827d;
+}
+.ready {
+	display: inline-block;
+	float: right;
+	color: #3d434a;
+	padding: 10px 0 30px 0;
+	text-decoration: underline;
+}
+.page {
+	position: relative;
+	bottom: 36px;
+	left: 210px;
+	border: 1px solid white;
+	border-radius: 5px 5px 0 0;
+	width: 200px;
+	height: 35px;
+	text-align: center;
+	background: rgba(76,88,102,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(76,88,102,1) 0%, rgba(36,45,55,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(76,88,102,1)), color-stop(100%, rgba(36,45,55,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(76,88,102,1) 0%, rgba(36,45,55,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(76,88,102,1) 0%, rgba(36,45,55,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(76,88,102,1) 0%, rgba(36,45,55,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(76,88,102,1) 0%, rgba(36,45,55,1) 100%);
+}
+.page a {
+	padding: 0 10px 0 10px;
+	font-size: 12px;
+	color: #bab9b2;
+	line-height: 32px;
+} 
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}

@@ -12,7 +12,7 @@ a {
 .logo-nav {
 	width: 100%;
 	height: 176px;
-	  border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
 	background: #222a33;
 }
 .logo-nav>h1 a {
@@ -85,12 +85,40 @@ a {
 	color: #fff;
 	font-size: 12px;
 }
-
-
-
+.subscribe,
+.categories {
+	color: #fff;
+	margin: 20px 0 0 0;
+}
+.subscribe>ul {
+	list-style-image: url(../img/rss.png);
+	margin: 10px 0 0 20px;
+}
+.subscribe li {
+	border-bottom: 1px solid #414a53;
+	padding: 5px 0 5px 0;
+}
+.subscribe a {
+	font-size: 12px;
+	color: #fff;
+}
+.categories {
+	border-bottom: 1px solid #414a53;
+}
+.categories>ul {
+	list-style-image: url(../img/list-li.png);
+	margin: 10px 0 0 10px;
+}
+.categories li {
+	border-bottom: 1px solid #414a53;
+	padding: 5px 0 5px 0;
+}
+.categories a {
+	font-size: 12px;
+	color: #fff;
+}
 .content {
 	width: 596px;
-/*	min-height: 940px;*/
 	padding: 20px 20px 60px 20px;
 	border: 2px solid #fff;
 	margin: 20px 0 0 0;
@@ -110,7 +138,6 @@ a {
 	display: inline-block;
 	width: 590px;
 	height: 45px;
-	/*	border: 1px solid #000;*/
 }
 .name-news .h1>a {
 	font-weight: bold;

@@ -509,12 +509,17 @@ section {
 	height: 75px;
 	background: url(../img/prodyct/01.jpg) center no-repeat;
 }
+.brand-img .one {
+	display: inline-block;
+	margin: 20px 0 0 105px;
+	width: 100px;
+	height: 40px;
+}
 .brand-img a {
 	display: inline-block;
-	border: 1px solid #000;
-	width: 0px;
-	height: 20px;
-	margin: 20px 0 0 120px;
+	margin: 0 0 0 5px;
+	width: 75px;
+	height: 40px;
 }
 footer {
 	padding: 20px 0 0 0;

@@ -70,7 +70,7 @@ a {
 	left: 295px;
 	bottom: 18px;
 }
-.reg>.pass {
+.reg .pass {
 	margin: 0 0 0 12px;
 	font-size: 10px;
 	color: #bfbfbf;
@@ -80,7 +80,12 @@ a {
 	line-height: 20px;
 	color: #fff;
 }
-.reg>a {
+.line-reg {
+	margin: 3px 0 0 0;
+	border-left: 1px solid white;
+}
+.line-reg>a {
+	margin: 0 0 0 10px;
 	color: #fff;
 }
 .site-map {
@@ -517,12 +522,13 @@ footer {
 	background: #213a4d;
 	text-align: center;
 }
-footer span {
-	color: #bec6c9;
-}
 footer li {
-	margin: 0 10px 0 10px;
+	padding: 0 10px 0 10px;
+	margin: 0 0 0 0;
 	display: inline;
+}
+footer .line {
+	border-left: 1px solid #bec6c9;
 }
 footer a {
 	color: #bec6c9;

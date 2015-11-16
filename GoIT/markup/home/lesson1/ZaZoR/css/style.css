@@ -98,10 +98,10 @@ a {
 	display: inline-block;
 	background: url(../img/navi/navi-img.png) center no-repeat;
 }
-.site-map a {
+.map {
 	display: inline-block;
 	margin: 0 0 0 2px;
-	width: 15px;
+	width: 17px;
 	height: 18px;
 }
 .logo {
@@ -515,7 +515,7 @@ section {
 	width: 100px;
 	height: 40px;
 }
-.brand-img a {
+.brand-img>a {
 	display: inline-block;
 	margin: 0 0 0 5px;
 	width: 75px;
@@ -532,7 +532,7 @@ footer li {
 	margin: 0 0 0 0;
 	display: inline;
 }
-footer .line {
+.line {
 	border-left: 1px solid #bec6c9;
 }
 footer a {

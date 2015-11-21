@@ -52,10 +52,12 @@
 	display: inline-block;
 }
 .slider__left {
+	margin: 0 0 0 20px;
 	float: left;
 	background: url(../img/slider/slider_left.png) 0 center no-repeat;
 }
 .slider__right {
+	margin: 0 20px 0 0;
 	float: right;
 	background: url(../img/slider/slider_left.png) -25px center no-repeat;
 }
@@ -280,7 +282,7 @@
 	margin: 0 0 0 65px;
 }
 .pre4 {
-		width: 100px;
+	width: 100px;
 	margin: 0 0 0 55px;
 }
 .pre5 {
@@ -303,16 +305,71 @@
 .info_footer_box2,
 .info_footer_box3 {
 	float: left;
- width: 313px;
- height: 200px;
- margin: 90px  0 0 0;
- display: inline-block;
- border: 1px solid #000;
-}
+	width: 313px;
+	height: 200px;
+	margin: 90px  0 0 0;
+	display: inline-block;
 }
 .info_footer_box1 {
 	background: url(../img/slider/prebg.png) no-repeat;
 }
-/*.pin_info__text {
-	margin: 30px 0 0 0;
-}*/
+.pin_info__text {
+	margin: 55px 0 0 0;
+}
+.pin_info__text {
+	color: #c8c8c8;
+	font-weight: 100;
+	text-shadow: 1px 1px #fff, 0 1px 0 #fff;
+}
+.pin_info_text {
+	width: 250px;
+	color: #787878;
+	font-weight: 100;
+	line-height: 20px;
+	text-shadow: 1px 1px #fff, 0 1px 0 #fff;
+}
+.pin_info__h1 {
+	font-size: 22px;
+	margin: 5px 0 40px 0;
+}
+/**/
+footer {
+	max-width: 2400px;
+	height: 120px;
+	overflow: hidden;
+	background: url(../img/footer.jpg);
+}
+.footer__menu {
+	width: 960px;
+	margin: 0 auto;
+	line-height: 120px;
+}
+.footer__li {
+	display: inline;
+	margin: 0 20px 0 0;
+}
+.footer__a {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.45);
+}
+.coryright {
+	position: relative;
+	bottom: 110px;
+	display: inline;
+	float: right;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.45);
+}
+.coryright>p {
+	color: #fff;
+	font-weight: 100;
+}
+.coryright p>span {
+	font-weight: bold;
+}
+@media (max-width: 768px) {
+.menu {
+	margin: 60px 0 0 0;
+  }
+}

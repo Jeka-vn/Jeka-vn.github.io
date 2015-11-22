@@ -1,6 +1,7 @@
 .wrapper {
 	width: 100%;
 	height: 100%;
+	overflow: hidden;
 	font-family: 'Oswald', sans-serif;
 	background: url(../img/wrapper/lg-bg.jpg) center -500px no-repeat;
 }
@@ -41,9 +42,9 @@
 	background:url(../img/slider/slider__bg.png);
 }
 .slider__box {
+	width: 960px;
 	height: 400px;
 	margin: 0 auto;
-	/*	border: 1px solid #000;*/
 }
 .slider__left,
 .slider__right {
@@ -60,10 +61,6 @@
 	margin: 0 20px 0 0;
 	float: right;
 	background: url(../img/slider/slider_left.png) -25px center no-repeat;
-}
-.slider__box {
-	width: 960px;
-	height: 400px;
 }
 .slider__h1,
 .slider__h2,
@@ -118,8 +115,7 @@
 }
 .company__box {
 	clear: both;
-	max-width: 980px;
-	min-width: 960px;
+	width: 980px;
 	height: 350px;
 	margin: 0 auto;
 }
@@ -269,7 +265,7 @@
 	width: 775px;
 	height: 64px;
 	margin: 0 auto;
-	background: url(..//img/slider/pre_footer.png);
+	background: url(../img/slider/pre_footer.png);
 }
 .pre__a {
 	width: 64px;
@@ -368,8 +364,86 @@ footer {
 .coryright p>span {
 	font-weight: bold;
 }
+/**/
 @media (max-width: 768px) {
-.menu {
-	margin: 60px 0 0 0;
-  }
+	.wrapper {
+		overflow: hidden;
+	}
+	.logo__menu {
+		width: 748px;
+	}
+	.menu {
+		position: relative;
+		bottom: 0;
+		margin: 20px 0 0 0;
+	}
+	.slider__box {
+		width: 728px;
+	}
+	.company__box {
+		width: 768px;
+	}
+	.company__box1,
+	.company__box2,
+	.company__box3 {
+		width: 242px;
+	}
+	.PINGBULLER__box {
+		width: 768px;
+	}
+	.PINGBULLER__starts,
+	.PINGBULLER__resent {
+		width: 365px;
+	}
+	.PINGBULLER__white {
+		width: 300px;
+	}
+	.pre_footer {
+		width: 725px;
+		height: 64px;
+		margin: 0 auto;
+		background: url(../img/slider/pre_footer725.png);
+	}
+	.pre__a {
+		width: 64px;
+		height: 64px;
+		display: inline-block;
+	}
+	.pre1,
+	.pre2,
+	.pre3 {
+		margin: 0 0 0 55px;
+	}
+	.pre4 {
+		width: 100px;
+		margin: 0 0 0 55px;
+	}
+	.pre5 {
+		width: 75px;
+		margin: 0 0 0 45px;
+	}
+	.info_footer_box1,
+	.info_footer_box2,
+	.info_footer_box3 {
+		width: 240px;
+	}
+	.pin_info_text {
+		width: 230px;
+		color: #787878;
+		font-weight: 100;
+		line-height: 20px;
+		text-shadow: 1px 1px #fff, 0 1px 0 #fff;
+	}
+	.footer__li {
+		display: inline;
+		margin: 0 10px 0 0;
+	}
+	.coryright {
+		position: relative;
+		bottom: 80px;
+		right: 220px;
+		float: right;
+		display: inline;
+		text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.45);
+	}
 }

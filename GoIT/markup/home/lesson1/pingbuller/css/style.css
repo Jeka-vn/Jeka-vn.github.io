@@ -5,6 +5,9 @@
 	font-family: 'Oswald', sans-serif;
 	background: url(../img/wrapper/lg-bg.jpg) center -500px no-repeat;
 }
+#nav{
+	display: none;
+}
 .logo__menu {
 	width: 960px;
 	margin: 0 auto;
@@ -53,12 +56,12 @@
 	display: inline-block;
 }
 .slider__left {
-	margin: 0 0 0 20px;
+	margin: 0 0 0 30px;
 	float: left;
 	background: url(../img/slider/slider_left.png) 0 center no-repeat;
 }
 .slider__right {
-	margin: 0 20px 0 0;
+	margin: 0 30px 0 0;
 	float: right;
 	background: url(../img/slider/slider_left.png) -25px center no-repeat;
 }
@@ -70,14 +73,14 @@
 }
 .slider__h1 {
 	margin: 20px 0 0 0;
-	font-size: 30px;
+	font-size: 40px;
 	color: #fff;
 }
 .slider__h2 {
 	width: 250px;
-	line-height: 25px;
+	line-height: 35px;
 	text-transform: uppercase;
-	font-size: 21px;
+	font-size: 26px;
 	color: #edbfff;
 }
 .slider__text {
@@ -88,6 +91,7 @@
 .slider__img {
 	position: relative;
 	bottom: 25px;
+	right: 70px;
 	float: right;
 }
 .slider__form {
@@ -452,112 +456,184 @@ footer {
 		text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.45);
 	}
 
-}
-@media (max-width: 480px) {
-	.logo {
-		margin: 50px 0 0 160px;
-	}
-	.slider {
-		position: relative;
-		bottom: 100px;
-		height: 250px;
-	}
-	.slider__left,
-	.slider__right {
-		width: 25px;
-		height: 250px;
-		display: inline-block;
-	}
-	.slider__h1 {
-		font-size: 23px;
-	}
-	.slider__h2 {
-		font-size: 16px;
-	}
-	.slider__img {
-		height: 250px;
-	}
-	.slider__text {
-		display: none;
+	@media (min-width: 960px) {
 
 	}
-	.company {
-		height: 900px;
-	}
-	.company__box1,
-	.company__box2,
-	.company__box3 {
-		float: left;
-		width: 400px;
-		height: 225px;
-		margin: 80px 0 0 0;
-		display: block;
+	@media (max-width: 480px) {
+		.menu {
+			display: none;
+		}
+		#nav{
+			float:left;
+			width:100%;
+			list-style:none;
+			font-weight:bold;
+			margin-bottom:10px;
+			text-align: center;
+			display: block;
+			margin: -50px 0 0 180px;
+			position: relative;
+			z-index: 1;
+		}
+		#nav li{
+			float:left;
+			margin-right:10px;
+			position:relative;
+			display:block;
+		}
+		#nav li a{
+			width: 100px;
+			display:block;
+			padding:5px;
+			color:#fff;
+			text-decoration:none;
+			text-shadow:1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
+			-moz-border-radius:2px;
+			-webkit-border-radius:2px;
+			border-radius:2px;
+		}
+		#nav li a:hover{
+			color:#fff;
+			background:#6b0c36;
+			background:rgba(107,12,54,0.75);/* Выглядит полупрозрачным */
+			text-decoration:underline;
+		}
+		#nav ul{
+			list-style:none;
+			position:absolute;
+			left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
+			opacity:0; /* Устанавливаем начальное состояние прозрачности */
+			-webkit-transition:0.25s linear opacity; /* В Webkit выпадающие пункты будут проявляться */
+		}
+		#nav ul li{
+			float:none;
+		}
+		#nav ul a{
+			white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
+			display:block;
+		}
+		#nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
+			left:0; /* Приносим его обратно на экран, когда нужно */
+			opacity:1; /* Делаем непрозрачным */
+		}
+		#nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
+			background:#6b0c36;
+			background:rgba(107,12,54,0.75);
+			text-decoration:underline;
+		}
+		#nav li:hover ul a{ /* Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта */
+			text-decoration:none;
+			-webkit-transition:-webkit-transform 0.075s linear;
+		}
+		#nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
+			text-decoration:underline;
+		}
+		.logo {
+			margin: 10px 0 50px 160px;
+		}
+		.slider {
+			position: relative;
+			bottom: 100px;
+			height: 250px;
+		}
+		.slider__left,
+		.slider__right {
+			width: 25px;
+			height: 250px;
+			display: inline-block;
+		}
+		.slider__h1 {
+			font-size: 23px;
+		}
+		.slider__h2 {
+			font-size: 16px;
+		}
+		.slider__img {
+			position: relative;
+			right: 10px;
+			height: 250px;
+		}
+		.slider__text {
+			display: none;
 
-	}
-	.PINGBULLER__box {
-		width: 480px;
-		margin: 115px auto auto;
-	}
-	.PINGBULLER__form {
-		position: relative;
-		bottom: 100px;
-		left: 150px;
-	}
-	.info_footer {
-		height: 900px;
+		}
+		.company {
+			height: 900px;
+		}
+		.company__box1,
+		.company__box2,
+		.company__box3 {
+			float: left;
+			width: 400px;
+			height: 225px;
+			margin: 80px 0 0 0;
+			display: block;
 
+		}
+		.PINGBULLER__box {
+			width: 480px;
+			margin: 115px auto auto;
+		}
+		.PINGBULLER__form {
+			position: relative;
+			bottom: 100px;
+			left: 150px;
+		}
+		.info_footer {
+			height: 900px;
+
+		}
+		.info_footer_box {
+			width: 480px;
+		}
+		.info_footer_box1,
+		.info_footer_box2,
+		.info_footer_box3 {
+			float: left;
+			width: 313px;
+			height: 200px;
+			margin: 90px  0 0 30px;
+			display: inline-block;
+		}
+		.PINGBULLER {
+			height: 800px;
+		}
+		.pre_footer {
+			width: 345px;
+			height: 154px;
+			margin: 220px auto;
+			background: url(../img/slider/pre_footer480.png);
+		}
+		.pre__a {
+			width: 64px;
+			height: 64px;
+			display: inline-block;
+		}
+		.pre1 {
+			margin: 0 0 0 70px;
+		}
+		.pre2 {
+			margin: 0 0 0 60px;
+		}
+		.pre3 {
+			margin: 10px 0 0 0;
+		}
+		.pre5 {
+			margin: 0 0 0 70px;
+		}
+		.footer__menu {
+			width: 480px;
+			margin: 0 auto;
+			line-height: 120px;
+		}
+		.footer__li {
+			display: inline;
+			margin: 0 5px 0 5px;
+		}
+		.footer__a {
+			color: #fff;
+			text-transform: uppercase;
+			text-decoration: none;
+			text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.45);
+		}
 	}
-	.info_footer_box {
-		width: 480px;
-	}
-	.info_footer_box1,
-	.info_footer_box2,
-	.info_footer_box3 {
-		float: left;
-		width: 313px;
-		height: 200px;
-		margin: 90px  0 0 30px;
-		display: inline-block;
-	}
-	.PINGBULLER {
-		height: 800px;
-	}
-	.pre_footer {
-		width: 345px;
-		height: 154px;
-		margin: 220px auto;
-		background: url(../img/slider/pre_footer480.png);
-	}
-	.pre__a {
-		width: 64px;
-		height: 64px;
-		display: inline-block;
-	}
-	.pre1 {
-		margin: 0 0 0 70px;
-	}
-	.pre2 {
-		margin: 0 0 0 60px;
-	}
-	.pre3 {
-		margin: 10px 0 0 0;
-	}
-	.pre5 {
-		margin: 0 0 0 70px;
-	}
-	.footer__menu {
-		width: 480px;
-		margin: 0 auto;
-		line-height: 120px;
-	}
-	.footer__li {
-		display: inline;
-		margin: 0 5px 0 5px;
-	}
-	.footer__a {
-		color: #fff;
-		text-transform: uppercase;
-		text-decoration: none;
-		text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.45);
-	}
-}

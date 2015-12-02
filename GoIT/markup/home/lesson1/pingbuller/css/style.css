@@ -40,7 +40,7 @@ nav {
 /*slider*/
 .slider {
 	clear: both;
-	max-width: 1600px;
+	max-width: 2400px;
 	height: 400px;
 	border: 1px solid #8c8a8a;
 	margin: 170px auto auto;
@@ -216,4 +216,10 @@ color: #edbfff;
 	font-weight: 300;
 	line-height: 23px;
 	margin: 0 0 0 50px;
+}
+/*resent*/
+.resent {
+	width: 426px;
+	height: 200px;
+	border: 1px solid #000;
 }

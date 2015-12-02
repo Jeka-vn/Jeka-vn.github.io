@@ -178,7 +178,6 @@ nav {
 	height: 384px;
 	margin: 0 auto;
 	border-top: 1px solid #0d151b;
-	border-bottom: 1px solid #e6e6e6;
 	background: #f9f9f9;
 }
 .pingbuller__box {
@@ -209,7 +208,7 @@ nav {
 	bottom: 13px;
 }
 .pingbuller__h1 > span {
-color: #edbfff;
+	color: #edbfff;
 }
 .pingbuller__text {
 	max-width: 360px;
@@ -219,7 +218,108 @@ color: #edbfff;
 }
 /*resent*/
 .resent {
-	width: 426px;
-	height: 200px;
-	border: 1px solid #000;
+	width: 390px;
+	float: right;
+	margin: 35px 100px 0 0;
+}
+.resent__h1 {
+	color: #454545;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+.resent__text1 {
+	max-width: 390px;
+	height: 50px;
+}
+.resent__img {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 0 10px 0 0;
+	display: inline-block;
+	background: url(../img/wrapper/sp-pingbuller.png) 54px 0;
+}
+.resent__h2,
+.resent__text {
+	max-width: 380px;
+}
+.resent__h2 {
+	margin: 10px 0 0 0;
+	line-height: 25px;
+	color: #454545;
+	font-weight: bold;
+}
+.resent__text {
+	line-height: 25px;
+	font-weight: 100;
+}
+.resent__here {
+	font-size: 14px;
+	color: #454545;
+	margin: 10px 50px 0 0;
+	float: right;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+/*clic_ bottom*/
+.clicbottom {
+	max-width: 960px;
+	height: 100px;
+	border-top: 1px solid #e6e6e6;
+	margin: 70px auto auto;
+}
+
+.clicbottom__img1,
+.clicbottom__img2,
+.clicbottom__img3,
+.clicbottom__img4,
+.clicbottom__img5,
+.clicbottom__img6 {
+	opacity: 0.9;
+	display: inline-block;
+}
+.clicbottom__img1:hover,
+.clicbottom__img2:hover,
+.clicbottom__img3:hover,
+.clicbottom__img4:hover,
+.clicbottom__img5:hover,
+.clicbottom__img6:hover {
+	opacity: 1;
+}
+.clicbottom__img1 {
+	width: 71px;
+	height: 63px;
+	margin: 25px 0 0 40px;
+	background: url(../img/slider/pre_footer480.png) -13px 0;
+}
+.clicbottom__img2 {
+	width: 72px;
+	height: 64px;
+	margin: 0 0 0 50px;
+	background: url(../img/slider/pre_footer480.png) -140px 0;
+}
+.clicbottom__img3 {
+	width: 72px;
+	height: 64px;
+	margin: 0 0 0 50px;
+	background: url(../img/slider/pre_footer480.png) -263px 0;
+}
+.clicbottom__img4 {
+	width: 72px;
+	height: 64px;
+	margin: 0 0 0 50px;
+	background: url(../img/slider/pre_footer480.png) 0 70px;
+}
+.clicbottom__img5 {
+	width: 107px;
+	height: 64px;
+	margin: 0 0 0 50px;
+	background: url(../img/slider/pre_footer480.png) -105px 65px;
+}
+.clicbottom__img6 {
+	width: 78px;
+	height: 64px;
+	margin: 0 0 0 50px;
+	background: url(../img/slider/pre_footer480.png) -265px 65px;
 }

@@ -1,0 +1,8 @@
+p {
+	font-size: 40px;
+	color: red;
+	font-weight: bold;
+	font-style: italic;
+	display: inline-block;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+}

@@ -1,0 +1,14 @@
+.wrapper {
+	width: 600px;
+	margin: 5% auto;
+}
+.h1 {
+	text-align: center;
+}
+.chec,
+.chec1,
+.chec2 {
+	clear: both;
+	width: 20px;
+	height: 20px;
+}

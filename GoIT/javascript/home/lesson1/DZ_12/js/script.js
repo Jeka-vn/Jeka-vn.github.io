@@ -19,9 +19,9 @@ var app = {
 				parentElement: wrapper
 			});
 			for (var j = 0; j < answersAmount; j++)
-				this.createElement({
-					tagName: 'p',
-					content: 'Вариант ответа №' + (i + 1),
+				var label = this.createElement({
+					tagName: 'label',
+					content: '<input type="checkbox" />Вариант ответа №' + (i + 1),
 					parentElement: wrapper
 				});
 		}
@@ -41,11 +41,12 @@ app.createElement({
 	content: 'Тест по програмированю',
 	parentElement: wrapper
 });
-app.generateQuestion(5, 3);
+app.generateQuestion(3, 3);
 app.createElement({
 	tagName: 'input',
 	className: 'chec',
 	inputType: 'submit',
+	inputValue: 'мой текст',
 	parentElement: wrapper
 });
 

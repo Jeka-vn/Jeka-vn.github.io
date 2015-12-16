@@ -1,5 +1,25 @@
 .wrapper {
-	max-width: 960px;
+	max-width: 660px;
 	min-width: 400px;
 	margin: 5% auto;
+	background: #eee;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 10px;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+label {
+	display: block;
+}
+input {
+	margin: 0 0 10px 10px;
+}
+h1 {
+	margin: 0 0 0 30%;
+	font-size: 22px;
+}
+.chec {
+	margin: 30px 0 0 40%;
 }

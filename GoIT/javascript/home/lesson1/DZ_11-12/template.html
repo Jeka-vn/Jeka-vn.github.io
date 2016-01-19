@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/template.css">
+	<title>Задание №1</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="js/tmpl.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="button">
+		<a href="index.html" class="carusel_">Карусель</a>
+		<a href="template.html" class="tmpl">Шаблонизатор</a>
+	</div>
+	<script type="test/html" id="homework">
+		<% for (var i = 0; i < data.length; i++) { %>
+			<div class="wapper">
+				<div class="Profile-Information">
+					<h1><%= data[i].my_name %></h1>
+					<img src="<%= data[i].img %>" alt="">
+					<p><%= data[i].who_am_i %></p>
+				</div>
+				<div class="why-frotend">
+					<h2><%= data[i].why_i_want_to_learn %></h2>
+					<ul>
+						<li><%= data[i].who_am_i_one %></li>
+						<li><%= data[i].who_am_i_two %></li>
+						<li><%= data[i].who_am_i_tree %></li>
+					</ul>
+				</div>
+				<div class="column-contact">
+					<div class="text-contact">
+						<p><%= data[i].my_telephone %></p>
+						<p><%= data[i].my_profile %></p>
+					</div>
+				</div>
+				<div class="fidbek">
+					<p><%= data[i].my_fidbek %><p> 
+						<div class="text-fidbek">
+							<p><%= data[i].fidbek %></p>
+						</div>
+					</div>
+				</div>
+				<% }; %>
+			</script>
+		</body>
+		</html>

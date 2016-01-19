@@ -1,0 +1,65 @@
+body {
+	background-color: #eeeeee;
+}
+.button	{
+	padding: 10px;
+	background: #eee;
+}
+.button a {
+	padding: 0 0 0 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #333;
+}
+.button a:hover {
+	text-decoration: underline;
+}
+.wapper {
+	width: 512px;
+	padding: 0 0 20px 0;
+	margin: 0 auto;
+	border: 1px solid #cecece;
+	background-color: #fff;
+}
+.wapper h1 {
+	font-size: 1.2em;
+	text-align: center;
+	margin-top: 50px;
+}
+.wapper img {
+	height: 130px;
+	margin-left: 130px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.wapper .Profile-Information p {
+	font-size: 1.2em;
+	margin-left: 20px;
+}
+.wapper .Profile-Information {
+	border-bottom: 1px solid black;
+	margin: 0 50px 0 50px;
+}
+.wapper .why-frotend, .column-contact {
+	padding-left: 20px;
+	margin: 0 50px 0 50px;
+	border-bottom: 1px solid black;
+}
+.why-frotend h2{
+	font-size: 1.1em;
+	font-weight: normal;
+}
+.wapper .fidbek {
+	padding-left: 20px;
+	margin: 0 50px 0 50px;
+}
+.wapper .text-contact {
+	width: 200px;
+}
+.wapper .text-fidbek p {
+	margin-top: -10px;
+}
+.wapper li {
+	padding: 3px;
+	margin-left: -20px;
+}

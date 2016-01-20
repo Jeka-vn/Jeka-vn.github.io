@@ -1,13 +1,10 @@
 $(function () {
-	$('.test, .submenu').on('click', function (e) {
-		$('.submenu').toggle();
-		e.preventDefault();
+	$('.test').hover(function() {
+		$('.submenu').fadeToggle(200);
+	}),
+	$('.test1').hover(function() {
+		$('.submenu1').fadeToggle(200);
 	});
-$('.test1, .submenu1').hover(function (e) {
-		$('.submenu1').toggle();
-		e.preventDefault();
-});
-
 	var $images = ['img/1.jpg', 'img/2.jpg', 'img/3.jpg'];
 	var $curectIMG = 0;
 	$('#img').attr('src', $images[$curectIMG]);
@@ -17,7 +14,7 @@ $('.test1, .submenu1').hover(function (e) {
 			$('#img').fadeToggle('fast');
 			$('#img').fadeToggle('fast');
 			$('#img').attr('src', $images[$curectIMG]);
-		e.preventDefault();
+			e.preventDefault();
 		}
 	});
 	$('.rigth__a').on('click', function () {

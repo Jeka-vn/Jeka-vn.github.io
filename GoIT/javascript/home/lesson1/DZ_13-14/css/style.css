@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #eee;
+	color: #eee;
+}
+.wrapper {
+	width: 700px;
+	padding: 20px 20px 80px 20px;
+	border: 1px solid #888;
+	border-radius: 3px;
+	margin: 25px auto;
+	background: #444;
+}
+.wrapper h1 {
+	font-size: 25px;
+	margin: 0 0 0 50px;
+}
+.wrapper p {
+	margin: 20px 0 20px 30px;
+}
+.wrapper input {
+	margin: 10px 0 0 10px;
+}
+.wrapper label {
+	display: block;
+}
+.break {
+	margin: 0 0 0 50px;
+	background: #5a5a5a;
+	padding: 0 0 5px 0;
+	border-radius: 3px;
+}
+input[type="radio"] {
+	width: 15px;
+	height: 15px;
+}
+.submit {
+	display: inline-block;
+	width: 120px;
+	position: relative;
+	top: 40px;
+	left: 50%;
+	margin: 0 0 0 -60px;
+	padding: 10px;
+	text-align: center;
+	background: #777;
+	color: #eee;
+	text-decoration: none;
+	border-radius: 3px;
+	border: 1px solid #888;
+	transition: 0.2s;
+}
+.submit:hover {
+	background: #888;
+	border: 1px solid #777;
+	color: #333;
+	transition: 0.2s;
+}

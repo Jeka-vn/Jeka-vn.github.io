@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<!-- <link rel="stylesheet" href=""> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+	<script src="js/myScript.js"></script>
+</head>
+<body>
+	<script type="text/x-handlebars-template" id="test">
+		<div class="wrapper">
+			<h1>Как хорошо ты знаешь игру Euro Truck Simulator 2?</h1>
+			<p>{{br_breack}}</p>
+			<div class="break">
+				<label><input type="radio" name="break" id="one"> {{br_one}}</label>
+				<label><input type="radio" name="break" id="two"> {{br_two}}</label>
+				<label><input type="radio" name="break" id="trye"> {{br_tree}}</label>
+			</div>
+			<p>{{sp_speed}}</p>
+			<div class="break">
+				<label><input type="radio" name="speed" id="one"> {{sp_one}}</label>
+				<label><input type="radio" name="speed" id="two"> {{sp_two}}</label>
+				<label><input type="radio" name="speed" id="trye"> {{sp_tree}}</label>
+			</div>
+			<p>{{tm_time}}</p>
+			<div class="break">
+				<label><input type="radio" name="travel_time" id="one"> {{tm_one}}</label>
+				<label><input type="radio" name="travel_time" id="two"> {{tm_two}}</label>
+				<label><input type="radio" name="travel_time" id="trye"> {{tm_tree}}</label>
+			</div>
+			<a href="#" class="submit">Проверить</a>
+		</div>
+	</script>
+</body>
+</html>

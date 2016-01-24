@@ -16,12 +16,13 @@ $(function() {
 	};
 	var questionsStr = JSON.stringify(questions);
 	localStorage.setItem('myQuestions', questionsStr);
-	var get = localStorage.getItem('myQuestions');
-	var prs = JSON.parse(get);
-	var template = Handlebars.compile( $('#test').html() );
+	var get = localStorage.getItem('myQuestions'),
+	prs = JSON.parse(get),
+	template = Handlebars.compile( $('#test').html() );
 	$('body').append( template(prs) );
 	$('.submit').on('click', function() {
-		if($('.break #trye' || '.speed #two' || '.time #trye').is(':checked'))
+		if($('.break #trye' || '.speed #two' || '.time #trye')
+			.is(':checked'))
 		{
 			$('.modal, .message').show();
 			$('.this_message p').html('Все верно, молодец!');
@@ -29,5 +30,8 @@ $(function() {
 			$('.modal, .message').show();
 			$('.this_message p').html('А вот и нет :)');
 		}
+	});
+	$('.close, .modal').on('click', function() {
+		$('.modal, .message').hide();
 	});
 });

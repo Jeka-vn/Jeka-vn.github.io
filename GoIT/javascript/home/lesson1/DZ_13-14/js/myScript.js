@@ -20,4 +20,13 @@ $(function() {
 	var prs = JSON.parse(get);
 	var template = Handlebars.compile( $('#test').html() );
 	$('body').append( template(prs) );
+
+	$('.break #trye' && '.speed #two' && '.time #trye').on('click', function() {
+		if($(this).is(':checked'))
+		{
+			alert('Все верно, чувак)');
+		} else {
+			alert('не верно!');
+		}
+	});
 });

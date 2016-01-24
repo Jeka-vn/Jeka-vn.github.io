@@ -20,7 +20,7 @@ $(function() {
 	prs = JSON.parse(get),
 	template = Handlebars.compile( $('#test').html() );
 	$('body').append( template(prs) );
-	$('.submit').on('click', function() {
+	$('.submit').on('click', function(e) {
 		if($('.break #trye' || '.speed #two' || '.time #trye').is(':checked'))
 		{
 			$('.modal, .message').fadeIn(200);
@@ -29,6 +29,7 @@ $(function() {
 			$('.modal, .message').hide();
 			$('.this_message p').html('А вот и нет :)');
 		}
+		e.preventDefault();
 	});
 	$('.close, .modal').on('click', function() {
 		$('.modal, .message').hide();

@@ -20,13 +20,14 @@ $(function() {
 	var prs = JSON.parse(get);
 	var template = Handlebars.compile( $('#test').html() );
 	$('body').append( template(prs) );
-
-	$('.break #trye' && '.speed #two' && '.time #trye').on('click', function() {
-		if($(this).is(':checked'))
+	$('.submit').on('click', function() {
+		if($('.break #trye' || '.speed #two' || '.time #trye').is(':checked'))
 		{
-			alert('Все верно, чувак)');
+			$('.modal, .message').show();
+			$('.this_message p').html('Все верно, молодец!');
 		} else {
-			alert('не верно!');
+			$('.modal, .message').show();
+			$('.this_message p').html('А вот и нет :)');
 		}
 	});
 });

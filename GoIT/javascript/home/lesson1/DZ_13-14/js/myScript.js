@@ -21,13 +21,12 @@ $(function() {
 	template = Handlebars.compile( $('#test').html() );
 	$('body').append( template(prs) );
 	$('.submit').on('click', function() {
-		if($('.break #trye' || '.speed #two' || '.time #trye')
-			.is(':checked'))
+		if($('.break #trye' || '.speed #two' || '.time #trye').is(':checked'))
 		{
-			$('.modal, .message').show();
+			$('.modal, .message').fadeIn(200);
 			$('.this_message p').html('Все верно, молодец!');
 		} else {
-			$('.modal, .message').show();
+			$('.modal, .message').hide();
 			$('.this_message p').html('А вот и нет :)');
 		}
 	});

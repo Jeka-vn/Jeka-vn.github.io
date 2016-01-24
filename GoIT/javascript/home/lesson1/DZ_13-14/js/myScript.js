@@ -26,7 +26,7 @@ $(function() {
 			$('.modal, .message').fadeIn(200);
 			$('.this_message p').html('Все верно, молодец!');
 		} else {
-			$('.modal, .message').show();
+			$('.modal, .message').fadeIn(200);
 			$('.this_message p').html('А вот и нет :)');
 		}
 		e.preventDefault();

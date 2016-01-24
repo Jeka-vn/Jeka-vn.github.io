@@ -3,7 +3,7 @@ $(function() {
 	var questions = {
 		br_breack: 'Сколько у грузовика есть вариантов торможения?',
 		sp_speed: 'С какой скоростью разрешено движение грузовику по автобану?',
-		tm_time: 'Можно ли водителю грузовика проводить больше 8 часов за рулем?',
+		tm_time: 'Сколько водитель грузовика разрешено проводить врремя за рулем?',
 		br_one: 'Один',
 		br_two: 'Два',
 		br_tree: 'Три',
@@ -21,12 +21,12 @@ $(function() {
 	template = Handlebars.compile( $('#test').html() );
 	$('body').append( template(prs) );
 	$('.submit').on('click', function(e) {
-		if($('.break #trye' || '.speed #two' || '.time #trye').is(':checked'))
+		if($('.break #trye' && '.speed #two' && '.time #trye').is(':checked'))
 		{
 			$('.modal, .message').fadeIn(200);
 			$('.this_message p').html('Все верно, молодец!');
 		} else {
-			$('.modal, .message').hide();
+			$('.modal, .message').show();
 			$('.this_message p').html('А вот и нет :)');
 		}
 		e.preventDefault();

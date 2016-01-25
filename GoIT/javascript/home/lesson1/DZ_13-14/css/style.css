@@ -3,7 +3,7 @@
 	padding: 0;
 }
 body {
-	background: #eee;
+	background: url(../img/bg.jpg) no-repeat;
 	color: #eee;
 }
 .wrapper {

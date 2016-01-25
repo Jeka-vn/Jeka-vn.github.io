@@ -21,7 +21,7 @@ $(function() {
 	template = Handlebars.compile( $('#test').html() );
 	$('body').append( template(prs) );
 	$('.submit').on('click', function(e) {
-		if($('.break #trye' && '.speed #two' && '.time #trye').is(':checked'))
+		if($('.break #trye' || '.speed #two' || '.time #trye').is(':checked'))
 		{
 			$('.modal, .message').fadeIn(200);
 			$('.this_message p').html('Все верно, молодец!');

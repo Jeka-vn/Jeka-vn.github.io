@@ -199,3 +199,54 @@ body {
 .slider_content img {
 	height: 110px;
 }
+/*bob content*/
+.box-content {
+	width: 685px;
+	padding: 10px;
+	background: #fff;
+	margin: 10px 0 0 0;
+	border: 1px solid #dcdcdc;
+	border-radius: 5px;
+}
+.content_title {
+	color: #fff;
+	font-style: italic;
+	font-weight: bold;
+	padding: 7px 0 7px 7px;
+	border: 1px solid #ecc14c;
+	border-radius: 3px 3px 1px 1px;
+	background: rgba(227,174,27,1);
+	background: -moz-linear-gradient(top, rgba(227,174,27,1) 0%, rgba(232,152,31,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(227,174,27,1)), color-stop(100%, rgba(232,152,31,1)));
+	background: -webkit-linear-gradient(top, rgba(227,174,27,1) 0%, rgba(232,152,31,1) 100%);
+	background: -o-linear-gradient(top, rgba(227,174,27,1) 0%, rgba(232,152,31,1) 100%);
+	background: -ms-linear-gradient(top, rgba(227,174,27,1) 0%, rgba(232,152,31,1) 100%);
+	background: linear-gradient(to bottom, rgba(227,174,27,1) 0%, rgba(232,152,31,1) 100%);
+}
+.rating_box {
+	width: 130px;
+	display: inline-block;
+	float: right;
+}
+.raiting {
+	width: 9px;
+	height: 9px;
+	background: #c0861a;
+	border-radius: 10px;
+	border: 3px solid #fff;
+	display: inline-block;
+	margin: 0 0 0 5px;
+}
+.box-content ul {
+	margin: 5px 0 5px 5px;
+}
+.box-content li {
+	display: inline;
+	padding: 0 5px 0 5px;
+	border-right: 1px solid #555;
+	color: #555;
+	font-size: 12px;
+}
+.box-content a {
+	color: #eb9e30;
+}

@@ -2,12 +2,15 @@ function GoogleCallback(jquery, data) {
 	var rezult;
 	rezult = data;
 	console.log(rezult.results[0]);
+	$('.result').css ({
+		display: 'block'
+	})
 	$('.title').html(rezult.results[0].title).attr('href', rezult.results[0].unescapedUrl);
 	$('.url').html(rezult.results[0].unescapedUrl);
 	$('.text').html(rezult.results[0].content);
 }
 $(function() {
-	$('.buttum').click(function (e) {
+	$('.buttom').click(function (e) {
 		var $input;
 		$input = $('.search').val();
 		e.preventDefault();

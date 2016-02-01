@@ -1,16 +1,4 @@
-function GoogleCallback(jquery, data) {
-	var rezult;
-	rezult = data;
-	console.log(rezult.results[0]);
-	$('.result').css({
-		display: 'block'
-	});
-	for (var i = 0; i < 2; i++) {
-		$('.title').html(rezult.results[0+i].title).attr('href', rezult.results[0].unescapedUrl);
-		$('.url').html(rezult.results[0+i].unescapedUrl);
-		$('.text').html(rezult.results[0+i].content);
-	}
-};
+
 $(function() {
 	$('.buttom').click(function (e) {
 		var $input;
@@ -23,3 +11,29 @@ $(function() {
 		});
 	});
 });
+function GoogleCallback(jquery, data) {
+	var data;
+	$('.result>.title').html(data.results[0].title).attr('href', data.results[0].unescapedUrl);
+	$('.result>.url').html(data.results[0].unescapedUrl);
+	$('.result>.text').html(data.results[0].content);
+
+	$('.result1>.title').html(data.results[1].title).attr('href', data.results[0].unescapedUrl);
+	$('.result1>.url').html(data.results[1].unescapedUrl);
+	$('.result1>.text').html(data.results[1].content);
+
+	$('.result2>.title').html(data.results[2].title).attr('href', data.results[0].unescapedUrl);
+	$('.result2>.url').html(data.results[2].unescapedUrl);
+	$('.result2>.text').html(data.results[2].content);
+
+	$('.result3>.title').html(data.results[3].title).attr('href', data.results[0].unescapedUrl);
+	$('.result3>.url').html(data.results[3].unescapedUrl);
+	$('.result3>.text').html(data.results[3].content);
+
+	$('.result4>.title').html(data.results[4].title).attr('href', data.results[0].unescapedUrl);
+	$('.result4>.url').html(data.results[4].unescapedUrl);
+	$('.result4>.text').html(data.results[4].content);
+
+		$('.result5>.title').html(data.results[5].title).attr('href', data.results[0].unescapedUrl);
+	$('.result5>.url').html(data.results[5].unescapedUrl);
+	$('.result5>.text').html(data.results[5].content);
+};

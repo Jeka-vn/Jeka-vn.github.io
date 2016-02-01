@@ -1,6 +1,10 @@
 function GoogleCallback(jquery, data) {
-	$('.test').html(data);
-	console.log(data.results[0]);
+	var rezult;
+	rezult = data;
+	console.log(rezult.results[0]);
+	$('.title').html(rezult.results[0].title).attr('href', rezult.results[0].unescapedUrl);
+	$('.url').html(rezult.results[0].unescapedUrl);
+	$('.text').html(rezult.results[0].content);
 }
 $(function() {
 	$('.buttum').click(function (e) {

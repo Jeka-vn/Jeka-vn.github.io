@@ -1,6 +1,20 @@
 
-$(function() {
-	$('.buttom').click(function (e) {
+function GoogleCallback(jquery, data) {
+	var rez;
+	rez = data;
+	console.log(rez.results[0].title);
+	var test = rez.results[0].title;
+};
+
+$(function () {
+	for (var i = 1; i < 8; i++) {
+		$('body').append('<div class="rez'+i+'"></div>');
+		$('.rez'+i+'').append('<a class="title"></a>');
+		$('.rez'+i+'').append('<p class="url"></p>');
+		$('.rez'+i+'').append('<p class="text"></p>');
+	$('.title').html(...);
+	}
+	$('.buttom').on('click', function (e) {
 		var $input;
 		$input = $('.search').val();
 		e.preventDefault();
@@ -11,29 +25,3 @@ $(function() {
 		});
 	});
 });
-function GoogleCallback(jquery, data) {
-	var data;
-	$('.result>.title').html(data.results[0].title).attr('href', data.results[0].unescapedUrl);
-	$('.result>.url').html(data.results[0].unescapedUrl);
-	$('.result>.text').html(data.results[0].content);
-
-	$('.result1>.title').html(data.results[1].title).attr('href', data.results[0].unescapedUrl);
-	$('.result1>.url').html(data.results[1].unescapedUrl);
-	$('.result1>.text').html(data.results[1].content);
-
-	$('.result2>.title').html(data.results[2].title).attr('href', data.results[0].unescapedUrl);
-	$('.result2>.url').html(data.results[2].unescapedUrl);
-	$('.result2>.text').html(data.results[2].content);
-
-	$('.result3>.title').html(data.results[3].title).attr('href', data.results[0].unescapedUrl);
-	$('.result3>.url').html(data.results[3].unescapedUrl);
-	$('.result3>.text').html(data.results[3].content);
-
-	$('.result4>.title').html(data.results[4].title).attr('href', data.results[0].unescapedUrl);
-	$('.result4>.url').html(data.results[4].unescapedUrl);
-	$('.result4>.text').html(data.results[4].content);
-
-		$('.result5>.title').html(data.results[5].title).attr('href', data.results[0].unescapedUrl);
-	$('.result5>.url').html(data.results[5].unescapedUrl);
-	$('.result5>.text').html(data.results[5].content);
-};

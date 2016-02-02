@@ -1,6 +1,6 @@
+"use strict";
 function GoogleCallback(jquery, data) {
 	console.log(data.results);
-
 	var ge;
 
 	for ( ge = 1; ge <= 7; ge++) {
@@ -10,9 +10,9 @@ function GoogleCallback(jquery, data) {
 		var title = data.results[''+ge+''].title;
 		var url = data.results[''+ge+''].url;
 		var content = data.results[''+ge+''].content;
-		console.log(title);	
-		console.log(url);	
-		console.log(content);	
+		console.log(data.results[''+ge+''].title);	
+		console.log(data.results[''+ge+''].url);	
+		console.log(data.results[''+ge+''].content);	
 	}
 };
 $(function() {

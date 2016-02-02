@@ -1,26 +1,24 @@
 function GoogleCallback(jquery, data) {
-console.log(data.results[0]);
+	console.log(data.results);
 
 	var title = data.results[0].title;
 	var url = data.results[0].url;
 	var content = data.results[0].content;
- for (var g = 1; g < 8; g++) {
- $('result'+g+', .title').html(title).attr('href', url);
- $('result'+g+', .url').text(url);
- $('result'+g+', .text').html(content);
- }
+	for (var g = 1; g <= 7; g++) {
+		$('result'+g+', .title').html(title).attr('href', url);
+		$('result'+g+', .url').text(url);
+		$('result'+g+', .text').html(content);
+	}
 };
 $(function() {
-	// цыкл создание блоков
-for (var i = 1; i <= 8; i++) {
-	$('body').append('<div class="result'+i+'"></div>');
-	$('.result'+i+'').append('<a class="title"></a>');
-	$('.result'+i+'').append('<p class="url"></p>');
+	for (var i = 1; i <= 7; i++) {
+		$('body').append('<div class="result'+i+'"></div>');
+		$('.result'+i+'').append('<a class="title"></a>');
+		$('.result'+i+'').append('<p class="url"></p>');
 		$('.result'+i+'').append('<p class="text"></p>');
-}
-// 
+	}
 	$('.buttom').on('click', function (e) {
-			var $input;
+		var $input;
 		$
 		$input = $('.search').val();
 		e.preventDefault();

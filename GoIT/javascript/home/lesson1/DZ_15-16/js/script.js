@@ -1,13 +1,18 @@
 function GoogleCallback(jquery, data) {
 	console.log(data.results);
 
-	var title = data.results[0].title;
-	var url = data.results[0].url;
-	var content = data.results[0].content;
-	for (var g = 1; g <= 7; g++) {
-		$('result'+g+', .title').html(title).attr('href', url);
-		$('result'+g+', .url').text(url);
-		$('result'+g+', .text').html(content);
+	var ge;
+
+	for ( ge = 1; ge <= 7; ge++) {
+		$('result'+ge+', .title').html(title).attr('href', url);
+		$('result'+ge+', .url').text(url);
+		$('result'+ge+', .text').html(content);
+		var title = data.results[''+ge+''].title;
+		var url = data.results[''+ge+''].url;
+		var content = data.results[''+ge+''].content;
+		console.log(title);	
+		console.log(url);	
+		console.log(content);	
 	}
 };
 $(function() {

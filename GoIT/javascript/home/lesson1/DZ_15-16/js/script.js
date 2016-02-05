@@ -1,31 +1,22 @@
 "use strict";
 function GoogleCallback(jquery, data) {
-	console.log(data.results);
-	var ge;
-
-	for ( ge = 1; ge <= 7; ge++) {
-		$('result'+ge+', .title').html(title).attr('href', url);
-		$('result'+ge+', .url').text(url);
-		$('result'+ge+', .text').html(content);
-		var title = data.results[''+ge+''].title;
-		var url = data.results[''+ge+''].url;
-		var content = data.results[''+ge+''].content;
-		console.log(data.results[''+ge+''].title);	
-		console.log(data.results[''+ge+''].url);	
-		console.log(data.results[''+ge+''].content);	
-	}
-};
-$(function() {
-	for (var i = 1; i <= 7; i++) {
+	for (var i = 0; i <= 7; i++) {
+		var $title = data.results[''+i+''].title;
+		var $url = data.results[''+i+''].url;
+		var $content = data.results[''+i+''].content;
 		$('body').append('<div class="result'+i+'"></div>');
 		$('.result'+i+'').append('<a class="title"></a>');
 		$('.result'+i+'').append('<p class="url"></p>');
 		$('.result'+i+'').append('<p class="text"></p>');
+		$('.result'+i+' .title').html($title).attr('href', $url);
+		$('.result'+i+' .url').html($url);
+		$('.result'+i+' .text').html($content);
 	}
+};
+$(function() {
 	$('.buttom').on('click', function (e) {
-		var $input;
-		$
-		$input = $('.search').val();
+		var $input = $('.search').val();
+		$('div').remove();
 		e.preventDefault();
 		$.ajax({
 			url:

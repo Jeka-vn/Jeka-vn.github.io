@@ -1,9 +1,10 @@
 "use strict";
+
 function GoogleCallback(jquery, data) {
 	for (var i = 0; i <= 7; i++) {
-		var $title = data.results[''+i+''].title;
-		var $url = data.results[''+i+''].url;
-		var $content = data.results[''+i+''].content;
+		var $title = data.results[''+i+''].title,
+		    $url = data.results[''+i+''].url,
+		    $content = data.results[''+i+''].content;
 		$('body').append('<div class="result'+i+'"></div>');
 		$('.result'+i+'').append('<a class="title"></a>');
 		$('.result'+i+'').append('<p class="url"></p>');
@@ -13,6 +14,7 @@ function GoogleCallback(jquery, data) {
 		$('.result'+i+' .text').html($content);
 	}
 };
+
 $(function() {
 	$('.buttom').on('click', function (e) {
 		var $input = $('.search').val();
@@ -24,4 +26,38 @@ $(function() {
 			dataType: 'jsonp'
 		});
 	});
+
+	// ООП
+
+	function Human() {
+		this.name = 'Eugen';
+		this.age = 24;
+		this.heigth = 168;
+		this.mass = 68;
+	};
+
+	function Worker() {
+		this.job = 'Westelecom';
+		this.play = 0;
+		this.method = function() {
+			alert('Работай');
+		}
+	};
+
+	function Student() {
+		this.learn = 'Goit';
+		this.money = 0;
+		this.meth = function () {
+			alert('Смотреть сериалы');
+		}
+	};
+
+	var newHuman = new Human(),
+	    newWorker = new Worker(),
+	    newStudent = new Student();
+
+	newHuman.prototype = newWorker;
+	newWorker.prototype = newStudent;
+
+	console.log(newHuman);
 });

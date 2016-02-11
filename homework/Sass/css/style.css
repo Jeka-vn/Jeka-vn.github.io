@@ -1,0 +1,373 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	color: #717171;
+	background: #e9e9e9;
+}
+/*top line*/
+.top_line {
+	width: 100%;
+	height: 27px;
+	background: #fff;
+	border-bottom: 1px solid #d9d9d9;
+}
+.top_line_box {
+	width: 960px;
+	margin: 0 auto;
+}
+/*top menu*/
+.top_menu {
+	width: 200px;
+	display: inline-block;
+}
+.top_menu li {
+	display: inline;
+	margin: 0 5px 0 0;
+}
+.top_menu a {
+	text-decoration: none;
+	line-height: 27px;
+	font-size: 11px;
+	color: #7d7d7d;
+}
+.top_menu a:hover {
+	text-decoration: underline;
+	color: #535353;
+}
+/*social*/
+.social {
+	float: right;
+	margin: 5px 0 0 0;
+	display: inline-block;
+}
+.social li {
+	display: inline-block;
+}
+.social a {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+
+}
+.facebook,
+.delicious,
+.flickr,
+.friendfeed,
+.tumblr,
+.twitter {
+	width: 16px;
+	height: 16px;
+	background: url(../img/top_line/social.png);
+	opacity: 0.7;
+	transition: 0.2s;
+}
+.delicious {
+	background-position: -21px 0;
+}
+.flickr {
+	background-position: -42px 0;
+}
+.friendfeed {
+	background-position: -63px 0;
+}
+.tumblr {
+	background-position: -84px 0;
+}
+.twitter {
+	background-position: -105px 0;
+}
+.facebook:hover,
+.delicious:hover,
+.flickr:hover,
+.friendfeed:hover,
+.tumblr:hover,
+.twitter:hover {
+	opacity: 1;
+}
+/*wrapper*/
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+/*logo*/
+.logo {
+	width: 182px;
+	height: 30px;
+	background: url(../img/logo/logo.png);
+	margin: 39px 0 0 0;
+	opacity: 0.8;
+	display: inline-block;
+	transition:0.3s;
+}
+.logo:hover {
+	opacity: 1;
+}
+/*menu*/ 
+.menu {
+	width: 100%;
+	height: 33px;
+	margin: 40px 0 0 0;
+	background: #fff;
+	border-bottom: 1px solid #d9d9d9;
+
+}
+.menu li {
+	display: inline;
+	line-height: 35px;
+}
+.menu a {
+	margin: 0 45px 0 0;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #5c5c5c;
+}
+.menu a:hover {
+	text-decoration: underline;
+}
+.menu a:first-child {
+	margin-left: 20px;
+}
+/*top news*/
+.top_box_news {
+	width: 940px;
+	height: 260px;
+	background: #fff;
+	padding: 10px;
+	margin: 13px 0 0 0;
+	border-right: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+}
+.top_news {
+	height: 260px;
+	display: inline-block;
+}
+.top_news img {
+	width: 650px;
+	height: 260px;
+}
+.top_news_link {
+	width: 640px;
+	height: 50px;
+	padding: 5px;
+	position: relative;
+	bottom: 60px;
+	/*display: inline-block;*/
+	background: rgba(219, 215, 209, 0.5);
+}
+.top_news_link a {
+	display: inline-block;
+	text-decoration: none;
+	color: #2c2b2b;
+	font-size: 14px;
+}
+.top_news_link a:hover {
+	text-decoration: underline;
+}
+.top_news_link a:first-child {
+	font-size: 16px;
+	margin: 5px 0 5px 0;
+	text-transform: uppercase;
+}
+/*top min news*/
+.top_min_news {
+	width: 280px;
+	height: 261px;
+	float: right;
+	display: inline-block;
+}
+.box_min_news {
+	height: 65px;
+	margin: 1px 0 0 0;
+	border-bottom: 2px dotted #c2c2c2;
+}
+.end {
+	border: 0;
+}
+.box_min_news img {
+	width: 60px;
+	height: 50px;
+	float: left;
+}
+.one {
+	margin: 0 10px 0 0;
+}
+.two {
+	margin: 4px 10px 4px 0;
+}
+.trye {
+	margin: 4px 10px 4px 0;
+}
+.four {
+	margin: 4px 10px 0 0;
+}
+.box_min_news a {
+	width: 205px;
+	height: 50px;
+	overflow: hidden;
+	text-decoration: none;
+	font-size: 12px;
+	display: inline-block;
+	margin: 5px 0 0 0;
+	color: #7a7a7a;
+}
+.box_min_news a:hover {
+	color: #7da1bc;
+	text-decoration: underline;
+}
+/*box_tab*/
+.left_box_tab {
+	width: 220px;
+	float: left;
+}
+.right_box_tab {
+	width: 220px;
+	float: right;
+}
+.box_tab {
+	width: 200px;
+	padding: 10px;
+	background: #fff;
+	margin: 15px 0 0 0;
+	border-bottom: 1px solid #cdcdcd;
+	border-right: 1px solid #cdcdcd;
+}
+.box_title {
+	text-transform: uppercase;
+	padding: 0 0 10px 0;
+	border-bottom: 2px dotted #c2c2c2;
+}
+.box_tab_content {
+	margin: 10px 0 0 0;
+}
+.box_tab_content .search {
+	width: 185px;
+	height: 20px;
+	padding: 0 5px 0 5px;
+}
+.posts_info {
+	height: 50px;
+	margin: 0 0 10px 0;
+}
+.posts_info img {
+	float: left;
+	margin: 0 10px 0 0;
+}
+.posts_info_text {
+	text-decoration: none;
+	color: #959595;
+	font-size: 12px;
+}
+.posts_info_text:hover {
+	text-decoration: underline;
+}
+.posts_info_comments {
+	display: block;
+	margin: 10px 0 0 0;
+	font-size: 9px;
+	font-style: italic;
+	color: #959595;
+	text-decoration: none;
+}
+.posts_info_comments:hover {
+	text-decoration: underline;
+}
+.resent_content {
+	max-height: 80px;
+	margin: 0 0 10px 0;
+}
+.resent_content span {
+	color: #444444;
+	font-size: 11px;
+}
+.resent_content_link {
+	text-decoration: none;
+	font-size: 11px;
+	color: #717171;
+}
+.flicr {
+	margin: 5px 15px 10px 20px;
+}
+/*articles*/
+.articles_box {
+	width: 470px;
+	float: left;
+}
+.articles {
+	width: 470px;
+	margin: 15px 0 0 15px;
+	padding: 10px;
+	background: #fff;
+	border-bottom: 1px solid #cdcdcd;
+	border-right: 1px solid #cdcdcd;
+}
+.articles_title {
+	text-transform: uppercase;
+	padding: 10px 0 10px 0;
+	border-bottom: 2px dotted #c2c2c2;
+}
+.articles_title a {
+	text-decoration: none;
+	color: #7e7e7e;
+}
+.articles_title a:hover {
+	text-decoration: underline;
+}
+.aticles_info {
+	padding: 10px 0 10px 0;
+	border-bottom: 2px dotted #c2c2c2;
+}
+.aticles_info li {
+	display: inline-block;
+	padding: 0 0 0 25px;
+}
+.aticles_info a {
+	text-decoration: none;
+	color: #898989;
+	font-size: 10px;
+	font-style: italic;
+	line-height: 5px;
+}
+.aticles_info li {
+	opacity: 0.8;
+}
+.aticles_info li:hover {
+	opacity: 1;
+}
+.artiles_data {
+	background: url(../img/articles/icon/articles_data.png) no-repeat 4px 2px;
+}
+.artiles_autor {
+	background: url(../img/articles/icon/articles_autor.png) no-repeat 7px 3px;
+}
+.artiles_comments {
+	background: url(../img/articles/icon/articles_comments.png) no-repeat 7px 3px;
+}
+.artiles_linka {
+	background: url(../img/articles/icon/articles_preLink.png) no-repeat 9px 3px;
+}
+.articles img {
+	max-width: 470px;
+	margin: 13px 0 0 0;
+}
+.aticles_text {
+	margin: 10px 0 0 0;
+	line-height: 22px;
+	font-weight: 100;
+}
+/*footer*/
+.footer_box {
+	clear: both;
+}
+.footer_line {
+	width: 100%;
+	height: 27px;
+	background: #fff;
+	margin: 200px 0 0 0;
+	border-top: 1px solid #d9d9d9;
+}
+.footer {
+	width: 960px;
+	font-size: 12px;
+	font-weight: 100;
+	margin: 0 auto;
+	line-height: 27px;
+}

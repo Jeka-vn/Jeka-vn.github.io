@@ -1,0 +1,130 @@
+@import 'settings';
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+// header
+header {
+	width: 1160px;
+	margin: 35px auto auto;
+}
+.logo {
+	width: 205px;
+	height: 37px;
+	display: inline-block;
+	background: url(../img/logo/logo.png);
+	transition: 0.4s;
+}
+.logo:hover {
+	background-position: 0 -39px;
+}
+// social
+.social {
+	height: 20px;
+	margin: 8px 0 0 0;
+	float: right;
+	.social__item {
+		display: inline-block;
+	}
+	.social__link {
+		display: inline-block;
+	}
+	.facebook,
+	.twitter,
+	.rss,
+	.linkedin,
+	.skype {
+		margin: 0 0 0 15px;
+		background: url(../img/social/social.png);
+		transition: 0.4s;
+	}
+	.facebook {
+		width: 9px;
+		height: 17px;
+	}
+	.twitter {
+		width: 15px;
+		height: 17px;
+		background-position: -10px 0;
+	}
+	.rss {
+		width: 15px;
+		height: 17px;
+		background-position: -27px 0;
+	}
+	.linkedin {
+		width: 16px;
+		height: 17px;
+		background-position: -43px 0;
+	}
+	.skype {
+		width: 18px;
+		height: 17px;
+		background-position: -60px 0;
+	}
+	.facebook:hover {
+		background-position: 0 19px;
+	}
+	.twitter:hover {
+		background-position: -10px 19px;
+
+	}
+	.rss:hover {
+		background-position: -27px 19px;
+	}
+	.linkedin:hover {
+		background-position: -43px 19px;
+	}
+	.skype:hover {
+		background-position: -60px 19px;
+	}
+}
+.menu {
+	width: 1160px;
+	height: 54px;
+	margin: 38px 0 0 0;
+	background: #2a2d32;
+	.menu__item {
+		padding: 0 25px 0 25px;
+		line-height: 54px;
+		display: inline-block;
+		border-right: 1px solid $colBlack;
+	}
+	.menu__item:first-child {
+		background: #248cec;
+	}
+	.menu__link {
+		text-transform: uppercase;
+		color: $colWhite;
+		text-decoration: none;
+		transition: 0.2s;
+	}
+	.menu__link:hover {
+		color: #f4b60d;
+	}
+	.search {
+		width: 188px;
+		height: 15px;
+		float: right;
+		padding: 10px 40px 10px 10px;
+		color: #8e9296;
+		position: relative;
+		bottom: 46px;
+		right: 7px;
+		background: #35383c;
+		border: 1px solid #000;
+	}
+	.search__buttom {
+		cursor: pointer;
+		width: 40px;
+		height: 37px;
+		position: relative;
+		left: 232px;
+		bottom: 46px;
+		border: 0;
+		background: url(../img/search/search.png);
+		float: right;
+	}
+}

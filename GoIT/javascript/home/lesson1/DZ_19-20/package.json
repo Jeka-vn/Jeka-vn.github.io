@@ -1,0 +1,14 @@
+{
+  "name": "build_home",
+  "version": "0.1.0",
+  "description": "DZ_19-20",
+  "main": "Gilpfie.js",
+  "author": "Goit",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.2.0"
+  }
+}

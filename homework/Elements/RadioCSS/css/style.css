@@ -1,0 +1,31 @@
+body {
+	background: #000;
+}
+.label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	margin: 10px;
+	font-size: 13px;
+}
+.slider__radio {
+	display: none;
+}
+.label:before {
+	content: "";
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	background-color: #fff;
+}
+.slider__radio:checked + .label:before {
+	content: "\25A0";
+	color: #000;
+	font-size: 20px;
+	text-align: center;
+	line-height: 11px;
+}
+

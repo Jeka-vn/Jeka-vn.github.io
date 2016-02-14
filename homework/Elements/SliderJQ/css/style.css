@@ -1,0 +1,15 @@
+.slider {
+	width: 1160px;
+	height: 470px;
+	border: 1px solid #000;
+	overflow: hidden;
+}
+.slider__box {
+	width: 10000px;
+	height: 470px;
+	position: relative;
+	right: 0;
+}
+.slider__box img {
+	margin: 0 0 0 -4px;
+}

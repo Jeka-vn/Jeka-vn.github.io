@@ -121,3 +121,32 @@ header {
 	bottom: 47px;
 	left: 214px;
 }
+.slider {
+	width: 1160px;
+	height: 470px;
+	margin: 40px 0 0 0;
+	overflow: hidden;
+	.slider__filter {
+		float: right;
+		position: relative;
+		z-index: 2;
+	}
+	.slider__box {
+		width: 10000px;
+		height: 470px;
+		position: relative;
+		bottom: 470px;
+img {
+	margin: 0 -4px 0 0;
+	}
+}
+}
+
+.left,
+.rigth {
+	display: inline-block;
+	margin: 0 0 0 40px;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #000;
+}

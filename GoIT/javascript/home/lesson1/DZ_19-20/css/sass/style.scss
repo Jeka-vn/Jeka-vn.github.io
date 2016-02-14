@@ -169,3 +169,81 @@ header {
 		line-height: 9px;
 	}
 }
+.info {
+	width: 1160px;
+	min-height: 182px;
+	margin: 70px 0 0 0;
+	.info_power,
+	.info__technologies,
+	.info__support {
+		width: 383px;
+		float: left;
+	}
+	.info__num {
+		min-height: 180px;
+		display: inline-block;
+		float: left;
+		font-size: 80px;
+		font-weight: 600;
+		color: #e9e9ea
+	}
+	.info__settings  {
+		width: 33px;
+		height: 33px;
+		display: inline-block;
+		float: left;
+		margin: 10px 0 0 20px;
+		background: url(../img/info/info.png) no-repeat;
+	}
+	h3 {
+		display: inline-block;
+		margin: 50px 0 0 -30px;
+		font-weight: 600;
+		color: #2a2b2e;
+	}
+	.info__text {
+		width: 250px;
+		float: right;
+		margin: 20px 0 0 0;
+		color: #8a8a8a;
+		padding: 0 20px 0 0;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 20px;
+		.info__link {
+			display: block;
+			margin: 20px 0 0 0;
+			text-decoration: none;
+			color: #2a2b2e;
+		}
+		.info__link:after {
+			content: url(../img/info/link_blue.png);
+		 margin: 0 0 0 7px;
+		}
+		.info__link:hover  {
+   color: #0a67bc;
+		}
+	}
+	.info__technologies {
+		.info__settings {
+			background-position: -36px 0;
+		}
+	}
+	.info__support {
+		.info__settings {
+			background-position: -69px 0;
+		}
+	}
+}
+.black__box {
+	width: 100%;
+	min-height: 500px;
+	margin: 90px 0 0 0;
+	background-color: #2a2d32;
+	.box-test {
+		width: 1160px;
+		height: 300px;
+		margin: $maAuto;
+		border: 1px solid #fff;
+	}
+}

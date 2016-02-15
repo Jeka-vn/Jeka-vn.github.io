@@ -411,9 +411,67 @@ header {
   background-color: #2a2d32;
 }
 
-.black__box .box-test {
+.black__box .services {
   width: 1160px;
-  height: 300px;
   margin: 0 auto;
-  border: 1px solid #fff;
+  border: 1px solid #2a2d32;
+}
+
+.black__box .services h4 {
+  font-size: 20px;
+  color: #fff;
+  margin: 40px 0 0 0;
+}
+
+.black__box .services__link {
+  width: 264px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  margin: 50px 0 0 0;
+}
+
+.black__box .services__link span {
+  display: inline-block;
+  margin: 35px 0 0 0;
+}
+
+.black__box .services__link:hover:before {
+  content: "+";
+  font-size: 60px;
+  background: rgba(36, 141, 235, 0.8);
+  padding: 90px 113px 90px 113px;
+  position: relative;
+  top: 160px;
+}
+
+.black__box .services__link:hover span {
+  color: #f4b60d;
+}
+
+.black__box .one {
+  margin: 0 15px 0 0;
+}
+
+.black__box .two {
+  margin: 0 15px 0 15px;
+}
+
+.black__box .true {
+  margin: 0 15px 0 15px;
+}
+
+.black__box .four {
+  margin-left: 15px;
+}
+
+.black__box .one:hover,
+.black__box .two:hover,
+.black__box .true:hover {
+  margin-top: -20px;
+}
+
+.black__box .four:hover {
+  margin-top: -10px;
 }

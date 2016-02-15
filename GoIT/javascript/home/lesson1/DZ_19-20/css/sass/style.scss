@@ -218,10 +218,10 @@ header {
 		}
 		.info__link:after {
 			content: url(../img/info/link_blue.png);
-		 margin: 0 0 0 7px;
+			margin: 0 0 0 7px;
 		}
 		.info__link:hover  {
-   color: #0a67bc;
+			color: #0a67bc;
 		}
 	}
 	.info__technologies {
@@ -240,10 +240,58 @@ header {
 	min-height: 500px;
 	margin: 90px 0 0 0;
 	background-color: #2a2d32;
-	.box-test {
+	.services {
 		width: 1160px;
-		height: 300px;
 		margin: $maAuto;
-		border: 1px solid #fff;
+		border: 1px solid #2a2d32;
+		h4 {
+			font-size: 20px;
+			color: #fff;
+			margin: 40px 0 0 0;
+		}
+	}
+	.services__link {
+		width: 264px;
+		display: inline-block;
+		text-align: center;
+		text-decoration: none;
+		color: #fff;
+		margin: 50px 0 0 0;
+		span {
+			display: inline-block;
+			margin: 35px 0 0 0;
+		}
+
+	}
+	.services__link:hover:before {
+		content: "+";
+		font-size: 60px;
+		background: rgba(36, 141, 235, 0.8);
+		padding: 90px 113px 90px 113px;
+		position: relative;
+		top: 160px;
+	}
+	.services__link:hover span {
+		color: #f4b60d
+	}
+	.one {
+		margin: 0 15px 0 0;
+	}
+	.two {
+		margin: 0 15px 0 15px;
+	}
+	.true {
+		margin: 0 15px 0 15px;
+	}
+	.four {
+		margin-left: 15px;
+	}
+	.one:hover,
+	.two:hover,
+	.true:hover {
+		margin-top: -20px;
+	}
+	.four:hover {
+		margin-top: -10px;
 	}
 }

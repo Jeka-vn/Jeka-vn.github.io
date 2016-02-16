@@ -315,7 +315,7 @@ header {
 			text-align: center;
 			span {
 				display: inline-block;
-    font-size: 13px;
+				font-size: 13px;
 				margin: 7px 0 0 0;
 			}
 			.data__num {
@@ -373,14 +373,140 @@ header {
 	}
 	.news__banners {
 		width: 547px;
-		height: 300px;
+		min-height: 550px;
 		float: left;
 		margin: 0 0 0 20px;
-				h4 {
+		h4 {
 			font-size: 20px;
 			font-weight: 600;
 			color: #2a2d32;
 		}
-
+		.benners__panel{
+			max-width: 559px;
+			height: 39px;
+			margin: 33px 0 0 0;
+			background: #fff;
+			border: 1px solid #e8e8e8;
+			span {
+				position: absolute;
+				margin: 0 0 0 50px;
+				line-height: 40px;
+				font-weight: 600;
+				text-transform: uppercase;
+			}
+			.panel__box,
+			.panel__box1,
+			.panel__box2,
+			.panel__box3 {
+				width: 39px;
+				height: 39px;
+				border-right: 1px solid #e8e8e8;
+			}
+		}
+		.benners__panel1,
+		.benners__panel2,
+		.benners__panel3 {
+			max-width: 559px;
+			height: 39px;
+			background: #fff;
+			border: 1px solid #e8e8e8;
+			margin: 5px 0 0 0;
+			span {
+				float: right;
+				margin: 0 400px 0 0;
+				line-height: 40px;
+				font-weight: 600;
+				text-transform: uppercase;
+			}
+		}
+		.panel__content,
+		.panel__content1,
+		.panel__content2,
+		.panel__content3 {
+			display: none;
+			padding: 10px;
+			.panel__text {
+				color: #8a8a8a;
+				font-weight: 500;
+				font-size: 14px;
+				line-height: 17px;
+			}
+		}
 	}
+}
+.partners {
+	clear: both;
+	width: 1160px;
+	margin: 0 auto;
+	a {
+		display: inline-block;
+		margin: 0 25px 0 0;
+		img {
+			width: 163px;
+			height: 62px;
+			opacity: 0.6;
+			transition: 0.3s;
+		}
+		img:hover {
+			opacity: 1;
+		}
+	}
+}
+.footer {
+	width: 100%;
+	margin: 100px 0 0 0;
+	background: #2a2d32;
+	.footer__box {
+		width: 1160px;
+		margin: 0 auto;
+		h5 {
+			color: #fff;
+			text-transform: uppercase;
+		}
+		.footer__social,
+		.footer__links,
+		.footer__blog {
+			width: 255px;
+			display: inline-block;
+		}
+		.footer__social {
+			margin: 63px 19px 0 0;
+		}
+		.footer__links {
+			margin: 63px 19px 0 19px;
+		}
+		.footer__blog {
+			margin: 63px 19px 0 19px;
+		}
+		.footer__about {
+			width: 260px;
+			float: right;
+			margin: 63px 0 0 0;
+		}
+		ul {
+			margin: 50px 0 0 0;
+			li {
+				line-height: 30px;
+				padding: 0 0 5px 5px;
+				border-bottom: 1px solid #393c41;
+				a {
+					font-size: 14px;
+					color: #828385;
+					text-decoration: none;
+					transition: 0.4s;
+				}
+			}
+		}
+		li:last-child {
+			border: 0;
+		}
+		a:hover {
+			color: #248cec;
+		}
+	}
+		.contacts {
+			height: 60px;
+			margin: 75px 0 0 0;
+			background: #35383c;
+		}
 }

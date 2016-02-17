@@ -3,7 +3,8 @@
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
     concatCss = require('gulp-concat-css'),
-    notify = require("gulp-notify");
+    notify = require("gulp-notify"),
+    minifyCss = require('gulp-minify-css');
  
 gulp.task('sass', function () {
   return gulp.src('css/sass/style.scss')
@@ -13,11 +14,16 @@ gulp.task('sass', function () {
 });
  
 gulp.task('concat', function () {
-  return gulp.src('css/*css')
+  return gulp.src('css/*.css')
     .pipe(concatCss("style.css"))
     .pipe(gulp.dest('css/'));
 });
 
+gulp.task('minify-css', function() {
+  return gulp.src('css/*.css')
+    .pipe(minifyCss("styles.css"))
+    .pipe(gulp.dest('css/css'));
+});
 
 gulp.task('concat:watch', function () {
   gulp.watch('css/*css', ['concat']);
@@ -26,4 +32,8 @@ gulp.task('concat:watch', function () {
 
 gulp.task('watch', function () {
   gulp.watch('css/sass/style.scss', ['sass']);
+});
+
+gulp.task('css', function () {
+  gulp.watch('css/style.css', ['minify-css']);
 });

@@ -509,4 +509,37 @@ header {
 			margin: 75px 0 0 0;
 			background: #35383c;
 		}
+		.company__cotacts {
+			width: 1160px;
+			margin: 0 auto;
+			li {
+				line-height: 60px;
+				margin: 0 40px 0 0;
+				display: inline-block;
+				a {
+					text-decoration: none;
+					color: #5d6063;
+					font-size: 14px;
+				}
+			}
+			.adress {
+				padding: 0 0 0 20px;
+				background: url(../img/footer/locatin.png) no-repeat 0 22px;
+			}
+			.phone {
+				padding: 0 0 0 20px;
+				background: url(../img/footer/phone.png) no-repeat 0 22px;
+			}
+			.email {
+				padding: 0 0 0 20px;
+				background: url(../img/footer/email.png) no-repeat 0 25px;
+			}
+		}
+		.copyright {
+			float: right;
+			position: relative;
+			bottom: 40px;
+			color: #5d6063;
+			font-size: 14px;
+		}
 }

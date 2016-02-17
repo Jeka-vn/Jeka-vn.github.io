@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Build Home</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/styles.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,600' rel='stylesheet' type='text/css'>
 	<script src="js/script.js"></script>
@@ -34,20 +34,25 @@
 			<input class="submit" type="submit" value="">
 		</form>
 		<!-- slider --> 
-		<div class="slider">
-			<img src="img/slider/filter.png" alt="" class="slider__filter">
-			<div class="slider__box">
-				<img src="img/slider/img1.jpg" alt="">
-				<img src="img/slider/img1.jpg" alt="">
-				<img src="img/slider/img1.jpg" alt="">
-			</div>
-			<input name="one" id="one" class="radio" type="radio">
-			<label class="label" for="one"></label>
-			<input name="one" id="two" class="radio" type="radio">
-			<label class="label" for="two"></label>
-			<input name="one" id="trye" class="radio" type="radio">
-			<label class="label" for="trye"></label>
+<div class="slider">
+		<div class="slider__text">
+			<span>Build</span>
+			<span>your</span>
+			<span>Business</span>
 		</div>
+		<div class="slider__box">
+			<img src="img/slider/img1.jpg" alt="">
+			<img src="img/slider/img1.jpg" alt="">
+			<img src="img/slider/img1.jpg" alt="">
+		</div>
+		<div class="filter"></div>
+		<input name="one" id="one" class="slider__radio" type="radio">
+		<label class="label" for="one"></label>
+		<input name="one" id="two" class="slider__radio" type="radio">
+		<label class="label" for="two"></label>
+		<input name="one" id="trye" class="slider__radio" type="radio">
+		<label class="label" for="trye"></label>
+	</div>
 		<div class="info">
 			<div class="info_power">
 				<span class="info__num">01</span>
@@ -234,13 +239,23 @@
 				</ul>
 			</div>
 		</div>
-			<div class="contacts">
-				<ul class="contacts__box">
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
+		<div class="contacts">
+			<ul class="contacts__box">
+				<li><a href=""></a></li>
+				<li><a href=""></a></li>
+				<li><a href=""></a></li>
+			</ul>
+			<div class="company__cotacts">
+				<ul>
+					<li class="adress"><a href="#">BuildHomeLtd.  Street Name 123   23 45 Cityname</a></li>
+					<li class="phone"><a href="#">+123 900 123 456</a></li>
+					<li class="email"><a href="#">info@buildhome.web</a></li>
 				</ul>
+				<div class="copyright">
+					<span>	&copy; 2016 Build Home</span>
+				</div>
 			</div>
+		</div>
 	</div>
 </body>
 </html>

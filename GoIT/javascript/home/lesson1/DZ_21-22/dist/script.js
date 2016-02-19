@@ -1,6 +1,9 @@
-$(() => {
+'use strict';
+
+$(function () {
 	'use strict';
-	let questions = {
+
+	var questions = {
 		br_breack: 'Сколько у грузовика есть вариантов торможения?',
 		sp_speed: 'С какой скоростью разрешено движение грузовику по автобану?',
 		tm_time: 'Сколько водителю грузовика разрешено проводить врремя за рулем?',
@@ -14,15 +17,14 @@ $(() => {
 		tm_two: '9 часов',
 		tm_tree: '8 часов'
 	};
-	let questionsStr = JSON.stringify(questions);
+	var questionsStr = JSON.stringify(questions);
 	localStorage.setItem('myQuestions', questionsStr);
-	let get = localStorage.getItem('myQuestions'),
-	prs = JSON.parse(get),
-	template = Handlebars.compile( $('#test').html() );
-	$('body').append( template(prs) );
-	$('.submit').on('click', (e) => {
-		if($('.break #trye' || '.speed #two' || '.time #trye').is(':checked'))
-		{
+	var get = localStorage.getItem('myQuestions'),
+	    prs = JSON.parse(get),
+	    template = Handlebars.compile($('#test').html());
+	$('body').append(template(prs));
+	$('.submit').on('click', function (e) {
+		if ($('.break #trye' || '.speed #two' || '.time #trye').is(':checked')) {
 			$('.modal, .message').fadeIn(200);
 			$('.this_message p').html('Все верно, молодец!');
 		} else {
@@ -31,7 +33,7 @@ $(() => {
 		}
 		e.preventDefault();
 	});
-	$('.close, .modal').on('click', () => {
+	$('.close, .modal').on('click', function () {
 		$('.modal, .message').hide();
 	});
 });

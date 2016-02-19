@@ -1,8 +1,6 @@
 'use strict';
 
 $(function () {
-	'use strict';
-
 	var questions = {
 		br_breack: 'Сколько у грузовика есть вариантов торможения?',
 		sp_speed: 'С какой скоростью разрешено движение грузовику по автобану?',
@@ -36,4 +34,9 @@ $(function () {
 	$('.close, .modal').on('click', function () {
 		$('.modal, .message').hide();
 	});
+
 });
+module.exports = questions;
+
+
+

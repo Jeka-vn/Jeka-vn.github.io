@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>NOTEBOOK</title>
+	<title>Notepad</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
@@ -10,22 +10,29 @@
 	<script src="js/script.js"></script>
 </head>
 <body>
-	<div class="top__line">
-		<a href="#" class="logo">notebook <span>by Eugen lambov</span></a>
-		<div class="form">
-			<input type="text" class="add" placeholder="Введите то, что Вы хотите записать...">
-			<input type="submit" class="sub" value="">
+	<script type="text/html" id="wrapper-template">
+		<div class="top__line">
+			<a href="#" class="logo">Notepad <span>by Eugen Lambov</span></a>
+			<div class="controlls">
+				<input type="text" class="item-value" placeholder="Добавить запись...">
+				<input type="submit" class="item-add" value="">
+			</div>
 		</div>
-	</div>
-	<div class="notebook">
-		<ul class="list">
-			<li class="list__item"></li>
-			<li class="list__item"></li>
-		</ul>
-	</div>
+		<div class="wrapper">
+			<ul class="item-list"></ul>
+		</div>
+	</script>
+	<script type="text/html" id="list-template">
+		<% for (var i = 0; i < data.length; i++ ) { %>
+		<li><%= data[i] %><span data-value="<%= data[i] %>" class="item-delete"></span></li>
+		<% }; %>
+	</script>
+
 	<div class="footer">
-		<a href="https://vk.com/lambov_1991" class="contact" target="_blank">Eugen lambov</a>
-		<div class="copyrigth">2016 <span>&copy;</span></div>
+		<a href="https://vk.com/lambov_1991" target="_blank" class="autor">Eugen Lambov</a>
+		<div class="copyrigth">
+			<span>2016 &copy;</span>
+		</div>
 	</div>
 </body>
 </html>

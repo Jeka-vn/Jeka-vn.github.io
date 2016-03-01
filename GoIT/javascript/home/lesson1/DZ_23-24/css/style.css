@@ -5,7 +5,7 @@ body {
 	height: 100%;
 	overflow: hidden;
 	font-family: 'Open Sans', sans-serif;
-background: #ddd;
+	background: #ddd;
 }
 .top__line {
 	width: 100%;
@@ -61,8 +61,9 @@ background: #ddd;
 	padding: 10px;
 	background: url(../img/hotepad.png);
 	-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.30);
--moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.30);
-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.30);
+	-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.30);
+	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.30);
+	overflow: hidden;
 }
 .item-list {
 	margin: 53px 0 0 0;
@@ -74,9 +75,10 @@ box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.30);
 	padding: 4px 0 0 0;
 }
 .item-delete:after {
-content: url(../img/close.png);
-position: absolute;
-padding: 0 0 0 10px;
+	content: url(../img/close.png);
+	position: absolute;
+	padding: 0 0 0 10px;
+	opacity: 0.4;
 }
 .footer {
 	width: 100%;
@@ -98,7 +100,7 @@ padding: 0 0 0 10px;
 	float: left;
 }
 .autor:hover {
-opacity: 1;
+	opacity: 1;
 }
 .copyrigth {
 	display: inline-block;

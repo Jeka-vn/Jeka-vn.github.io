@@ -11,7 +11,7 @@ body {
 .wrapper {
 	width: 960px;
 	padding: 0 0 10px 0;
-	margin: 40px auto auto;
+	margin: 40px auto;
 	background: $wrapBG;
 	border-radius: 10px;
 }
@@ -190,40 +190,40 @@ body {
 	}
 }
 .who_box {
-	min-height: 550px;
+	padding: 0 0 20px 0;
 	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.55);
 	-moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.55);
 	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.755);
 	.who_we_are,
-	.what_we_do,
+	.what_we_do, 
 	.why_hire_us {
-		width: 260px;
+		width: 264px;
 		display: inline-block;
-		.title {
+		vertical-align: top;
+		h4 {
 			color: #575757;
 			font-weight: bold;
-			font-size: 20px;
-			text-decoration: none;
+			font-size: 24px;
+			margin: 40px 0 0 0;
 		}
 		img {
-			width: 265px;
-			height: 142px;
-			margin: 25px 0 0 0;
+			width: 264px;
+			margin: 24px 0 0 0;
 		}
 		.text {
 			color: #4f4f4f;
-			line-height: 20px;
+			line-height: 17px;
 			font-size: 14px;
-			margin: 20px 0 20px 0;
+			margin: 24px 0 20px 0;
 		}
 		.link {
 			color: #6c6c6c;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-weight: bold;
 			padding: 5px 10px;
 			border: 1px solid #ccc;
 			border-radius: 3px;
-			font-weight: bold;
-			text-transform: uppercase;
-			text-decoration: none;
 			background: rgba(254,254,254,1);
 			background: -moz-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(229,229,229,1) 100%);
 			background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254,254,254,1)), color-stop(100%, rgba(229,229,229,1)));
@@ -231,20 +231,150 @@ body {
 			background: -o-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(229,229,229,1) 100%);
 			background: -ms-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(229,229,229,1) 100%);
 			background: linear-gradient(to bottom, rgba(254,254,254,1) 0%, rgba(229,229,229,1) 100%);
+			transition: 0.2s;
 		}
 		.link:hover {
-			color: #888;
+			color: #000;
+		}
+		.what_menu {
+			display: inline-block;
+			li {
+				padding: 2px 0 2px 0;
+				.what_link {
+					width: 259px;
+					color: #0f4db6;
+					text-decoration: none;
+					padding: 0 0 0 10px;
+					display: inline-block;
+					border-bottom: 1px dotted #000;
+					background: url(../img/siteImg/who/triable.png) no-repeat 0 center;
+				}
+			}
+			.subMenu {
+				display: none;
+				li {
+					padding: 2px 0 2px 30px;
+					a {
+						color: #444;
+						text-decoration: none;
+						border: 0;
+					}
+				}
+			}
 		}
 	}
 	.who_we_are {
-		margin: 40px 42px 0 42px;
-		float: left;
+		margin: 0 40px 0 40px;
 	}
 	.what_we_do {
-		margin: 40px 42px 0 0;
-		float: left;
+		margin: 0 40px 0 0;
 	}
-	.why_hire_us {
-		margin-top: 40px;
+}
+.prefooter {
+	padding: 0 0 20px 0;
+	margin: 26px 0 0 0;
+	border-bottom: 1px solid #ccc;
+	.browse,
+	.testimonials,
+	.blog {
+		display: inline-block;
+		vertical-align: top;
+		h4 {
+			font-size: 18px;
+			color: #585858;
+			font-weight: bold;
+		}
 	}
+	.browse {
+		width: 130px;
+		margin: 0 117px 0 40px;
+		.browse_menu {
+			margin: 10px 0 0 0;
+			li {
+				padding: 2px 0 2px 0;
+				a {
+					color: #585858;
+					text-decoration: none;
+					font-size: 13px;
+				}
+			}
+		}
+	}
+	.testimonials {
+		width: 304px;
+		margin: 0 62px 0 0;
+		.text {
+			color: #585858;
+			line-height: 18px;
+			margin: 15px 0 0 0;
+			span {
+				margin: 5px 0 0 0;
+				display: block;
+				color: #000;
+				font-weight: bold;
+			}
+		}
+	}
+	.blog {
+		width: 272px;
+		.date {
+			color: #4f4f4f;
+			font-size: 13px;
+			margin: 17px 0 0 0;
+			display: block;
+		}
+		.blog_link {
+			color: #0f4db6;
+			display: inline-block;
+			text-decoration: none;
+			font-weight: bold;
+			margin: 4px 0 4px 0;
+		}
+		.blog_text {
+			color: #4f4f4f;
+			font-size: 14px;
+			line-height: 18px;
+		}
+	}
+}
+.footer {
+	height: 60px;
+	border-top: 1px solid #fff;
+}
+.copyrigth {
+	margin: 30px 0 0 40px;
+	display: inline-block;
+	color: #4f4f4f;
+	font-size: 14px;
+}
+.footerSoc {
+	margin: 0 0 0 120px;
+	display: inline-block;
+	li {
+		display: inline-block;
+		a {
+			width: 18px;
+			height: 16px;
+			display: inline-block;
+			background: url(../img/siteImg/footer/footerSoc.png);
+		}
+	}
+	.ln {
+		background-position: -20px 0;
+	}
+	.fs {
+		background-position: -41px 0;
+	}
+}
+.footerImg {
+	width: 117px;
+	height: 18px;
+	margin: 0 0 0 70px;
+	display: inline-block;
+	opacity: 0.5;
+	transition: 0.3s;
+	background: url(../img/siteImg/footer/footerImg.png);
+}
+.footerImg:hover {
+	opacity: 0.8;
 }

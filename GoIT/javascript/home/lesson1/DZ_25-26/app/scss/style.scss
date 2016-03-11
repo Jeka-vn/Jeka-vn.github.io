@@ -308,6 +308,15 @@ h2>span {
 .activity__travel {
 	margin: 17px 0 0 16px;
 }
+.activity__title {
+	color: #000;
+	font-size: 30px;
+	font-weight: 700;
+	width: 100%;
+	float: left;
+	margin-top: 20%;
+	text-align: center;
+}
 .ideas {
 	margin: 96px 0 0 0;
 	h6 {
@@ -506,5 +515,171 @@ h2>span {
 	}
 	.copyright {
 		margin: 38px 47px 0 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		background-size: 1444px 13.2%;
+	}
+	.wrapper {
+		width: 320px;
+	}
+	h1 {
+		margin: 120px 0 0 75px;
+	}
+	.check {
+		margin: 20px 80px 0 0;
+	}
+	h2 {
+		font-size: 32px;
+		margin: 30px 0 0 65px;
+		padding: 0;
+		span {
+			width: 320px;
+			text-align: center;
+			font-size: 30px;
+			margin: 0 0 0 10px;
+		}
+	}
+	.headline__H2 {
+		width: 300px;
+		text-align: center;
+		margin: 15px 0 0 20px;
+	}
+	.headline__link {
+		width: 230px;
+		margin: 18px 0 0 30px;
+	}
+	.works {
+		width: 320px;
+		margin: 144px 0 0 0;
+	}
+	h3 {
+		margin: 0 0 0 10px;
+	}
+	.works__step1,
+	.works__step2,
+	.works__step3 {
+		width: 300px;
+		height: 238px;
+	}
+	.works__step1 {
+		margin: 18px 0 0 18px;
+	}
+	.works__step2 {
+		margin: 12px 0 0 18px;
+	}
+	.works__step3 {
+		margin: 12px 0 0 18px;
+	}
+	.step__link {
+		margin: 26px 0 0 0;
+	}
+	.works__btn {
+		display: none;
+	}
+	.step {
+		position: relative;
+		bottom: 380px;
+	}
+	.partner {
+		width: 320px;
+		margin: 35px 0 0 10px;
+		h4 {
+			width: 300px;
+			margin: 0;
+		}
+	}
+	.partner__one {
+		margin: 14px 0 0 42px;
+	}
+	.partner__two {
+		margin: 30px 0 0 42px
+	}
+	.partner__three {
+		margin: 55px 0 0 40px;
+	}
+	.partner__four {
+		margin: 15px 0 0 40px
+	}
+	.partner__link {
+		width: 255px;
+		margin: 32px 0 0 17px;
+	}
+	.activity {
+		width: 320px;
+		margin: 35px 0 0 18px;
+		h5 {
+			margin: 0 20px 20px 0;
+		}
+	}
+	.activity__sport,
+	.activity__welines,
+	.activity__extreme,
+	.activity__games,
+	.activity__culture,
+	.activity__relax,
+	.activity__travel {
+		width: 300px;
+		height: 118px;
+		margin: 0 0 10px 0;
+	}
+	.ideas {
+		margin: 30px 0 0 0;
+		h6 {
+			margin: 0 0 0 10px;
+		}
+	}
+	.ideas__interes {
+		margin: 18px 0 0 0;
+	}
+	.ideas__form {
+		position: relative;
+		top: 18px;
+		left: 24px;
+	}
+	.ideas__search {
+		width: 260px;
+	}
+	.ideas__submit {
+		width: 280px;
+		margin: 10px 0 0 0;
+	}
+	.footer {
+		width: 320px;
+		margin: 60px auto;
+	}
+	.footer__logo {
+		margin: 20px 0 0 95px;
+	}
+	.footer__menu {
+		width: 300px;
+		height: 50px;
+		margin: 15px 0 0 20px;
+		li:first-child {
+			text-align: center;
+			display: block;
+		}
+		li {
+			margin: 0 0 0 20px;
+			display: inline-block;
+		}
+	}
+	.footer__parttners {
+		width: 300px;
+		height: 50px;
+		margin: 0 0 0 20px;
+		li:first-child {
+			text-align: center;
+			display: block;
+		}
+		li {
+			margin: 0 0 0 20px;
+			display: inline-block;
+		}
+	}
+	.copyright {
+		margin: 5px 98px 0 0;
 	}
 }

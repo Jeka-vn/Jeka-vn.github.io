@@ -1,6 +1,7 @@
 body {
 	width: 100%;
 	height: 100%;
+	overflow-x: hidden; 
 	@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700,600);
 	font-family: 'Open Sans', sans-serif;
 	background: url(../img/siteImg/bgTop.jpg) no-repeat center 0;
@@ -400,4 +401,110 @@ h2>span {
 .copyright {
 	margin: 40px 248px 0 0;
 	float: right;
+}
+// 748px
+@media screen and (max-width: 1000px) {
+	.wrapper {
+		width: 760px;
+	}
+	h1 {
+		margin: 50px 0 0 40px;
+	}
+	.check {
+		margin: 40px 50px 0 0;
+	}
+	h2 {
+		margin: 150px 0 0 100px;
+	}
+	h2>span {
+		margin: 5px 0 0 3px;
+	}
+	.headline__H2 {
+		margin: 38px 0 0 175px;
+	}
+	.headline__link {
+		margin: 39px 0 0 260px;
+	}
+	.works {
+		width: 760px;
+	}
+	.works__step1,
+	.works__step2,
+	.works__step3 {
+		width: 234px;
+	}
+	.works__step1 {
+		margin-left: 7px; 
+	}
+	.works__step2 {
+		margin-left: 12px;
+	}
+	.works__step3 {
+		margin-left: 12px;
+	}
+	.works__btn {
+		width: 235px;
+		bottom: 360px;
+	}
+	.partner {
+		width: 760px;
+	}
+	.partner__one {
+		margin: 0 0 0 140px;
+	}
+	.partner__two {
+		margin: 0 0 0 30px;
+	}
+	.partner__three {
+		margin: 50px 0 0 135px;
+	}
+	.partner__four {
+		margin: 50px 0 0 30px;
+	}
+	.partner__link {
+		margin: 66px 0 0 280px;
+	}
+	.activity {
+		width: 760px;
+	}
+	.activity__sport,
+	.activity__welines,
+	.activity__extreme,
+	.activity__games,
+	.activity__travel {
+		width: 230px;
+	}
+	.activity__culture,
+	.activity__relax {
+		width: 478px;
+	}
+	.activity__sport {
+		margin: 0 0 0 10px;
+	}
+	.activity__games {
+		margin: 18px 0 0 10px;
+	}
+	.activity__relax {
+		margin: 18px 0 0 10px;
+	}
+	.ideas__form {
+		position: relative;
+		top: 37px;
+		left: 170px;
+	}
+	.footer {
+		width: 767px;
+	}
+	.footer__logo {
+		margin: 36px 0 0 30px;
+	}
+	.footer__menu {
+		margin: 35px 0 0 95px;
+	}
+	.footer__parttners {
+		margin: 35px 0 0 67px;
+	}
+	.copyright {
+		margin: 38px 47px 0 0;
+	}
 }

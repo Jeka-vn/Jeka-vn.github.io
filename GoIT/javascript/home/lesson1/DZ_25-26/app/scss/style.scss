@@ -259,13 +259,7 @@ h2>span {
 	border: 1px solid #fff;
 }
 .activity {
-	margin: 98px 0 0 0;
-	h5 {
-		font-size: 22px;
-		font-weight: 700;
-		text-align: center;
-		margin: 0 0 38px 0;
-	}
+	width: 967px;
 }
 .activity__sport,
 .activity__welines,
@@ -283,30 +277,40 @@ h2>span {
 .activity__extreme,
 .activity__games,
 .activity__travel {
-	width: 300px;
-	height: 310px;
+	width: 290px;
+	height: 300px;
 	border: 1px solid #000;
 }
-.activity__welines {
-	margin: 0 10px 0 16px;
-}
-.activity__games {
-	margin: 18px 0 0 0;
-}
 .activity__culture {
-	width: 617px;
-	height: 310px;
-	margin: 18px 0 0 15px;
+	width: 600px;
+	height: 300px;
 	border: 1px solid #000;
 }
 .activity__relax {
-	width: 617px;
-	height: 310px;
-	margin: 17px 0 0 0;
-	border: 1px solid #000;
+	width: 600px;
+	height: 300px;
+		border: 1px solid #000;
+}
+.activity__sport {
+margin: 10px 0 0 0;
+}
+.activity__welines {
+margin: 10px 18px 0 18px;
+}
+.activity__extreme {
+margin: 10px 0 0 0;
+}
+.activity__games {
+margin: 18px 18px 0 0;
 }
 .activity__travel {
-	margin: 17px 0 0 16px;
+margin: 18px 0 0 0;
+}
+.activity__culture {
+margin: 18px 0 0 0;
+}
+.activity__relax {
+	margin: 18px 18px 0 0;
 }
 .activity__title {
 	color: #000;
@@ -473,7 +477,7 @@ h2>span {
 	.partner__link {
 		margin: 66px 0 0 280px;
 	}
-	.activity {
+		.activity {
 		width: 760px;
 	}
 	.activity__sport,
@@ -481,21 +485,35 @@ h2>span {
 	.activity__extreme,
 	.activity__games,
 	.activity__travel {
-		width: 230px;
+		width: 235px;
+		height: 300px;
 	}
 	.activity__culture,
 	.activity__relax {
-		width: 478px;
+		width: 490px;
+		height: 300px;
 	}
-	.activity__sport {
-		margin: 0 0 0 10px;
-	}
-	.activity__games {
-		margin: 18px 0 0 10px;
-	}
-	.activity__relax {
-		margin: 18px 0 0 10px;
-	}
+.activity__sport {
+margin: 10px 0 0 0;
+}
+.activity__welines {
+margin: 10px 18px 0 18px;
+}
+.activity__extreme {
+margin: 10px 0 0 0;
+}
+.activity__games {
+margin: 18px 18px 0 0;
+}
+.activity__travel {
+margin: 18px 0 0 0;
+}
+.activity__culture {
+margin: 18px 0 0 0;
+}
+.activity__relax {
+	margin: 18px 18px 0 0;
+}
 	.ideas__form {
 		position: relative;
 		top: 37px;
@@ -607,12 +625,9 @@ h2>span {
 		width: 255px;
 		margin: 32px 0 0 17px;
 	}
-	.activity {
+.activity {
 		width: 320px;
 		margin: 35px 0 0 18px;
-		h5 {
-			margin: 0 20px 20px 0;
-		}
 	}
 	.activity__sport,
 	.activity__welines,

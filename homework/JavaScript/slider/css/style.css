@@ -1,0 +1,10 @@
+.slider {
+	width: 200px;
+	height: 300px;
+	overflow: hidden;
+/*	border: 1px solid #000;*/
+	border-radius: 5px;
+}
+.slider__img {
+	height: 300px;
+}

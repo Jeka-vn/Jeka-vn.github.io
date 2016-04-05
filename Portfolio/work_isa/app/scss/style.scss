@@ -53,29 +53,5 @@ body {
 	background: url(../img/siteImg/angle.png);
 	position: absolute;
 	top: 0;
-	right: 0;
-}
-.slider {
-	width: 100%;
-	margin: 60px auto auto;
-	text-align: center;
-}
-.slider__left,
-.slider__right {
-	color: $white;
-	text-decoration: none;
-	font-size: 25px;
-}
-.slider__box	{
-	width: 970px;
-	height: 300px;
-	display: inline-block;
-	overflow: hidden;
-	img {
-		width: 970px;
-	}
-}
-.slider__content {
-	position: relative;
-	bottom: 0;
+	right: 0; 
 }

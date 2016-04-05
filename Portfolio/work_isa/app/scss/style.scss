@@ -8,20 +8,12 @@ body {
 .wrapper {
 	width: 100%;
 }
-.top__box {
+.top__line {
 	width: 100%;
-	height: 110px;
+	height: 100px;
 	background: $topBox;
 }
-.top__box-angle {
-	width: 64px;
-	height: 121px;
-	background: url('../img/siteImg/angle.png');
-	position: absolute;
-	top: 0px;
-	right: 0px;
-}
-.top__logo-menu {
+.top__line-box {
 	width: 970px;
 	padding: 0 10px 0 10px;
 	margin: 0 auto;
@@ -31,80 +23,59 @@ body {
 	width: 165px;
 	height: 63px;
 	display: inline-block;
-	margin: 23px 0 0 0;
+	margin: 25px 0 0 0;
 	float: left;
-	background: url('../img/siteImg/logo.png');
+	background: url(../img/siteImg/logo.png);
 }
 .menu {
+	display: inline-block;
+	line-height: 100px;
 	li {
 		display: inline-block;
-		margin: 50px 0 0 30px;
+		margin: 0 0 0 30px;
 		a {
 			color: $white;
 			font-weight: 600;
 			text-decoration: none;
-			padding: 8px 11px;
-
+			transition: .3s;
 		}
 	}
 	a:hover {
+		padding: 4px 8px;
 		background: #232324;
-		padding: 8px 11px;
-		border-radius: 3px;
+		border-radius: 5px;
+
 	}
+}
+.top__line-corner {
+	width: 64px;
+	height: 121px;
+	background: url(../img/siteImg/angle.png);
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 .slider {
 	width: 100%;
-	height: 638px;
-	overflow: hidden;
-}
-.creative {
-	width: 100%;
-	background: #232324;
-}
-.creative__box {
-	width: 970px;
-	margin: 0 auto;
+	margin: 60px auto auto;
 	text-align: center;
-	h3 {
-		color: $white;
-		font-size: 40px;
-		font-weight: 100;
-		padding: 40px 0 0 0;
-	}
-	span {
-		color: #c64544;
-		font-size: 20px;
-		margin: 20px 0 35px 0;
-		display: block;
-	}
 }
-.creative__purpose,
-.creative__ul,
-.creative__design {
-	width: 230px;
-	display: inline-block;
-	vertical-align: top;
-	img {
-		width: 100px;
-		height: 100px;
-		display: inline-block;
-		border-radius: 50px;
-	}
-}
-
-.creative__ul {
-	margin: 0 85px 0 85px;
-}
-.creative__link {
+.slider__left,
+.slider__right {
 	color: $white;
-	font-size: 20px;
-	margin: 15px 0 0 0;
 	text-decoration: none;
-	display: block;
+	font-size: 25px;
 }
-.creative__text {
-	color: #e74c3c;
-	margin: 15px 0 0 0;
-	line-height: 25px;
+.slider__box	{
+	width: 970px;
+	height: 300px;
+	display: inline-block;
+	overflow: hidden;
+	img {
+		width: 970px;
+	}
+}
+.slider__content {
+	position: relative;
+	bottom: 0;
 }

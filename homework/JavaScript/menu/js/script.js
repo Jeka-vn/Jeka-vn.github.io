@@ -1,9 +1,16 @@
 $(function () {
 
-	$('.drop').on('click', function (event) {
-		var click = $('.drop').index(this);
-		$('.subMenu').eq(click).slideToggle(400);
-		event.preventDefault();
-	});
+	(function slider() {
+
+		$('.spoiler__title').on('click', function () {
+			var $click = $('.spoiler__title').index(this);
+			console.log($click)
+			$('.spoiler__content').eq($click).slideToggle(400);
+		})
+
+
+
+	})();
+
 
 });

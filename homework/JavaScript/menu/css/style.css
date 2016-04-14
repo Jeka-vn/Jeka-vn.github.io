@@ -5,52 +5,15 @@ body {
 	padding: 0;
 	margin: 0;
 }
-.menu {
-	height: 60px;
-	border-bottom: 1px solid #15274a;
-	background: #1e57c1;
-	text-align: center;
-	margin: 0;
-	padding: 0;
-
+.spoiler {
+	width: 500px;
+	margin: 30px 0 0 30px;
 }
-.menu li {
-	display: inline-block;	
-	list-style: none;
-	line-height: 60px;
-	margin: 0 50px 0 50px;
+.spoiler__title {
+	background: #ddd;
 }
-.menu a {
-	font-weight: bold;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: #fff;
-}
-.subMenu {
-	width: 130px;
+.spoiler__content {
+	border: 1px solid #000;
+	padding: 10px;
 	display: none;
-	position: absolute;
-	margin: 0 0 0 -40px;
-	background: #1e57c1;
-	/*border: 1px solid #000;*/
-}
-.subMenu li {
-	display: block;
-	margin: 0;
-}
-.subMenu a {
-	padding: 0 40px 0 0;
-}
-a:hover {
-	opacity: .7;
-}
-.drop:after {
-	content: "";
-	border: 8px solid transparent;
-	border-top: 8px solid #fff;
-	float: right;
-	margin: 26px 0 0 5px;
-}
-.drop:hover:after {
-	opacity: 0.7;
 }

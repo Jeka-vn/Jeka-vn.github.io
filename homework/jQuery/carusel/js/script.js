@@ -1,3 +1,5 @@
+"use strict";
+
 $(function() {
 // q - quantity.
 // w - width.
@@ -6,9 +8,9 @@ $(function() {
 	var $qSliderContent = $('.slider__content').length;
 	var $wSliderContent = $('.slider__content').width();
 	var $qClick = 0;
-	console.log($qSliderContent);
+
 	for (var i = 0; i < $qSliderContent; i++) {
-		$('.slider__in').append("<a href='#'></a>");
+		$('.slider__in').append('<a href='#'></a>');
 		$('.slider__in > a').addClass('slider__chex');
 	}
 	// cancellation behavior links
@@ -23,7 +25,7 @@ $(function() {
 		}, 1000)
 		$('.slider__chex').eq($qClick).addClass('slider__chex--activ');
 		$('.slider__chex').eq($qClick -1).removeClass('slider__chex--activ');
-		if ($qClick == 6) {
+		if ($qClick == $qSliderContent) {
 			$('.slider__box--content').animate({
 				left: '+=' + $wSliderContent * $qClick + 'px'
 			}, 2000)
@@ -42,15 +44,14 @@ $(function() {
 		if ($qClick < 0) {
 			$('.slider__box--content').animate({
 				left: '-=' + $wSliderContent + 'px'
-			}, 1000)
+			}, 500)
 			$qClick = 0;
 			$('.slider__chex').eq($qClick).addClass('slider__chex--activ');
 			$('.slider__chex').eq($qClick -1).removeClass('slider__chex--activ');
 		}
-	})
+	});
 
 	$('.slider__chex').eq($qClick).addClass('slider__chex--activ');
-
 
 })();
 

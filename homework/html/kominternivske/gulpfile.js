@@ -7,7 +7,7 @@ var gulp = require('gulp'),
 
 gulp.task('sass', function () {
 	return gulp.src('./app/scss/style.scss')
-	.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+.pipe(sass().on('error', sass.logError))
 	.pipe(gulp.dest('./css'))
 	.pipe(notify('Done!'));
 });

@@ -1,0 +1,13 @@
+{
+  "name": "business_site",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Eugen Lambov",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.2.0"
+  }
+}

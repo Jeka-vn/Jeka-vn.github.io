@@ -1,0 +1,13 @@
+{
+  "name": "business_site",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Eugen Lambov",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.9",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0"
+  }
+}

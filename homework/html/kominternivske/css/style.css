@@ -1,0 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,300italic,400italic,600italic);
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif; }
+
+.wrapper {
+  width: 200px; }

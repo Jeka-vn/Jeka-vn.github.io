@@ -393,3 +393,65 @@ header {
 .BoxBusinessPrice:hover .BoxBusinessPriceFreeNow {
   color: #fff;
   background: green; }
+
+.platform {
+  text-align: center;
+  background: url(../img/platform/platformBg.png); }
+
+.platformTitle {
+  padding: 0 200px 0 200px;
+  display: inline-block;
+  margin: 100px 0 10px 0;
+  line-height: 40px;
+  text-align: center;
+  font-size: 35px; }
+
+.platformCom {
+  width: 250px;
+  height: 300px;
+  text-decoration: none;
+  margin: 20px 15px 0 15px;
+  padding: 0 0 30px 0;
+  display: inline-block;
+  vertical-align: top;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.28);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.28);
+  transition: .3s; }
+
+.platformBoxIcon {
+  margin: 40px 0 0 0; }
+
+.platformBoxIcon i {
+  color: #5db442;
+  display: block; }
+
+.platformLine {
+  width: 60px;
+  display: inline-block;
+  border: 1px solid #ececec; }
+
+.platformComTitle {
+  color: #333333;
+  margin: 20px 0 0 0;
+  text-transform: uppercase; }
+
+.platformComText {
+  color: #898989;
+  font-size: 14px;
+  padding: 0 10px 0 10px;
+  margin: 35px 0 0 0;
+  line-height: 20px; }
+
+.platformCom:hover {
+  background: #5db442; }
+
+.platformCom:hover .platformBoxIcon i {
+  color: #fff; }
+
+.platformCom:hover .platformComTitle {
+  color: #fff; }
+
+.platformCom:hover .platformComText {
+  color: #fff; }

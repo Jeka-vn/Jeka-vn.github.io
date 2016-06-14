@@ -180,11 +180,216 @@ header {
 
 .communityBox {
   width: 100%;
+  padding: 0 0 50px 0;
+  text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
   background: rgba(0, 0, 0, 0.5); }
 
 .communityTitle {
   color: #fff;
   font-size: 35px;
-  padding: 100px 0 0 0;
+  padding: 100px 0 0 0; }
+
+.communitySlid {
+  width: 600px;
+  padding: 20px 10px;
+  margin: 45px 0 45px 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.2);
+  display: inline-block; }
+
+.slider {
+  width: 500px;
+  display: inline-block; }
+
+.slidTop,
+.slidBtn {
+  width: 28px;
+  height: 15px;
+  display: block;
+  margin: 5px 0 5px -14px;
+  position: relative;
+  left: 50%;
+  background: url(../img/community/btn.png);
+  transition: .2s; }
+
+.slidBtn {
+  background-position: 0 15px; }
+
+.slidTop:hover,
+.slidBtn:hover {
+  opacity: .4; }
+
+.slider {
+  height: 60px;
+  overflow: hidden;
+  margin: 20px 0 0 0; }
+
+.sliderimgBox {
+  float: left; }
+
+.sliderTitle {
+  color: #5daf46;
+  font-size: 20px;
+  text-transform: uppercase; }
+
+.sliderText {
+  color: #fff;
+  font-size: 14px;
+  margin: 5px 0 5px 0;
+  opacity: .8; }
+
+.communitySteps {
+  display: inline-block;
+  margin: 0 20px 0 20px; }
+
+.communityCircle {
+  width: 65px;
+  height: 65px;
+  display: inline-block;
+  border-radius: 35px;
+  background: #4a6530;
+  transition: .2s; }
+
+.communityStepsText a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 150px;
+  margin: 10px 0 0 0; }
+
+.communityCircle i {
+  color: #fff;
+  margin: 16px 0 0 0;
+  display: inline-block; }
+
+.communitySteps:hover .communityCircle {
+  background: #fff; }
+
+.communitySteps:hover .communityCircle i {
+  color: #5db442; }
+
+.affordableTitle {
+  color: #000;
+  text-align: center;
+  margin: 100px 0 0 0;
+  font-size: 35px; }
+
+.affordablelink {
+  margin: 50px 0 30px 0;
+  text-align: center;
+  position: relative; }
+
+.affordableBusiness {
+  padding: 10px 30px;
+  position: relative;
+  left: 3px;
+  border-radius: 20px 0 0 20px;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid #000; }
+
+.affordableCommunity {
+  padding: 10px 30px;
+  position: relative;
+  right: 3px;
+  border-radius: 0 20px 20px 0px;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid #000; }
+
+.affordableOr {
+  position: absolute;
+  z-index: 1;
+  text-transform: uppercase;
+  margin: -8px 0 0 -20px;
+  padding: 8px 5px;
+  border-radius: 20px;
+  text-decoration: none;
+  background: #4ca368; }
+
+.affordableBusiness,
+.affordableCommunity,
+.affordableOr {
+  color: #000;
+  border: 1px solid #ececec; }
+
+.affordableOr {
+  color: #fff; }
+
+.affordableActive {
+  color: #fff;
+  background: #5db442; }
+
+.affordableBoxBusiness {
   text-align: center; }
+
+.BoxBusinessPrice {
+  width: 268px;
+  margin: 45px 22px 45px 22px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #ececec;
+  transition: .3s; }
+
+.BoxBusinessPriceLineTop {
+  width: 73px;
+  border: 2px solid #ccc;
+  margin: 0 0 0 95px; }
+
+.BoxBusinessPriceTitle {
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0 0 0; }
+
+.priceBox {
+  width: 268px;
+  height: 72px;
+  margin: 25px 0 0 0;
+  padding: 25px 0 0 0;
+  background: url(../img/Affordable/pricebg.png);
+  text-align: center; }
+
+.priceBoxMoney {
+  font-size: 25px; }
+
+.priceBoxMoneyText {
+  font-size: 13px;
+  opacity: .7; }
+
+.BoxBusinessPriceLink {
+  color: #777777;
+  font-weight: 600;
+  display: inline-block;
+  margin: 10px 0 10px 0;
+  text-decoration: none; }
+
+.BoxBusinessPriceItem i {
+  color: #5db442; }
+
+.BoxBusinessPriceItem
+.PriceItemNoActive {
+  color: #ccc; }
+
+.BoxBusinessPriceFreeNow {
+  color: #4e4e4e;
+  border: 1px solid #ececec;
+  padding: 10px 35px;
+  border-radius: 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 10px 0 10px 0;
+  text-transform: uppercase; }
+
+.BoxBusinessPrice:hover {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.41);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.41); }
+
+.BoxBusinessPrice:hover .BoxBusinessPriceLineTop {
+  border: 2px solid green; }
+
+.BoxBusinessPrice:hover .BoxBusinessPriceFreeNow {
+  color: #fff;
+  background: green; }

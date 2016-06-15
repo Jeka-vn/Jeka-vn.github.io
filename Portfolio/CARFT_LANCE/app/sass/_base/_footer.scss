@@ -70,3 +70,24 @@ footer {
 .footerListList:hover {
 	opacity: .7;
 }
+.copyRigth {
+	margin: 45px 0 0 0;
+	padding: 45px 0 45px 0;
+	border-top: 1px solid $colorCopyRigthBd;
+}
+.logoCopy {
+	color: $colorLogoText;
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.FooterCopyRigth {
+	font-size: 12px;
+	float: right;
+	opacity: .7;
+}
+.madeCopy {
+	margin: 5px 0 0 0;
+	display: block;
+	text-align: right;
+}

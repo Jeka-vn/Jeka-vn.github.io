@@ -4,7 +4,8 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	background: $bodyBgColor;
 	opacity: 0;
-}
+	overflow-x:hidden;
+}	
 .wrapper {
 	width: 100%;
 }

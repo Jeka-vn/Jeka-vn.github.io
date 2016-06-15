@@ -1,0 +1,30 @@
+.servisBox {
+	padding: 30px 0;
+	text-align: center;
+	background: $colorBgServis;
+}
+.servisEmail {
+	display: inline-block;
+	padding: 12px 0 12px 10px;
+	border-radius: 20px 0 0 20px;
+	border: 1px solid $colorBdServis;
+}
+.servisSumit {
+	color: $colorTextSubmitServis;
+	display: inline-block;
+	padding: 12px 15px 12px 10px;
+	position: relative;
+	right: 5px;
+	border-radius: 0 25px 25px 0;
+	background: $colorBgSubmitServis;
+	border: 1px solid $colorBdServis;
+	transition: .2s;
+}
+.servisSumit:hover {
+	opacity: .8;
+}
+.sevisText {
+	opacity: .8;
+	margin: 10px 0 0 0;
+	font-size: 13px;
+}

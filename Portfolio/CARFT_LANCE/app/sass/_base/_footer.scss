@@ -1,0 +1,72 @@
+footer {
+	padding: 70px 0 0 0;
+	background: $colorFooterBd;
+}
+.footerBox {
+	width: 330px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 90px 0 0;
+}
+.footerTitle {
+	font-weight: 600;
+}
+.footerText {
+	margin: 40px 0 23px 0;
+	line-height: 20px;
+	font-size: 13px;
+	font-weight: 600;
+	opacity: .6;
+}
+.footerInput {
+	width: 240px;
+	height: 45px;
+	border: 0;
+	padding: 0 10px 0 10px;
+}
+.footerInput::-webkit-input-placeholder {
+	font-style: italic;
+}
+.footerInput::-moz-placeholder {
+	font-style: italic;
+}
+.footerInput:-moz-placeholder {
+	font-style: italic;
+}
+.footerInput:-ms-input-placeholder {
+	font-style: italic;
+}
+.footerSubmit {
+	width: 57px;
+	height: 45px;
+	font-weight: 600;
+	position: relative;
+	right: 5px;
+	color: $colorFooterSubmitText;
+	border: 0;
+	background: $colorFooterSubmitBg;
+}
+.footerQuck,
+.footerLegal,
+.footerInformation {
+	width: 190px;
+	margin: 0 20px 0 20px;
+	vertical-align: top;
+	display: inline-block;
+}
+.footerList {
+	margin: 40px 0 0 0;
+}
+.footerListItem {
+	margin: 10px 0 10px 0;
+}
+.footerListList {
+	color: $colorFooterListListText;
+	text-transform: uppercase;
+	font-size: 14px;
+	text-decoration: none;
+	transition: .3s;
+}
+.footerListList:hover {
+	opacity: .7;
+}

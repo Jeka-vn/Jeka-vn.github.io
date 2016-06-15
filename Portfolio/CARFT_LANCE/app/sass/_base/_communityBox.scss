@@ -1,0 +1,94 @@
+.community {
+	background: url(../img/community/community.jpg);
+}
+.communityBox {
+	width: 100%;
+	padding: 0 0 50px 0;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.5);
+}
+.communityTitle {
+	color: $communityTitleColor;
+	font-size: 35px;
+	padding: 100px 0 0 0;
+}
+.communitySlid {
+	width: 600px;
+	padding: 20px 10px;
+	margin: 45px 0 45px 0;
+	background-color: rgba(255, 255, 255, 0.2);
+	background: rgba(255, 255, 255, 0.2);
+	display: inline-block;
+}
+.slider {
+	width: 500px;
+	display: inline-block;
+}
+.slidTop,
+.slidBtn {
+	width: 28px;
+	height: 15px;
+	display: block;
+	margin: 5px 0 5px -14px;
+	position: relative;
+	left: 50%;
+	background: url(../img/community/btn.png);
+	transition: .2s;
+}
+.slidBtn {
+	background-position: 0 15px;
+}
+.slidTop:hover,
+.slidBtn:hover {
+	opacity: .4;
+}
+.slider {
+	height: 60px;
+	overflow: hidden;
+	margin: 20px 0 0 0;
+}
+.sliderimgBox {
+	float: left;
+}
+.sliderTitle {
+	color: $colorCommunityTitle;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.sliderText {
+	color: $colorCommunityText;
+	font-size: 14px;
+	margin: 5px 0 5px 0;
+	opacity: .8;
+}
+.communitySteps {
+	display: inline-block;
+	margin: 0 20px 0 20px;
+}
+.communityCircle {
+	width: 65px;
+	height: 65px;
+	display: inline-block;
+	border-radius: 35px;
+	background: $colorCommunityCircle;
+	transition: .2s;
+}
+.communityStepsText a {
+	color: $colorCommunityStepsText;
+	text-decoration: none;
+	display: inline-block;
+	min-width: 150px;
+	margin: 10px 0 0 0;
+}
+.communityCircle i {
+	color: $colorcommunityCircleI;
+	margin: 16px 0 0 0;
+	display: inline-block;
+}
+.communitySteps:hover .communityCircle {
+	background: $colorCommunityCircleWhite;
+}
+.communitySteps:hover .communityCircle i {
+	color: $colorcommunityCircleIGreen;
+}

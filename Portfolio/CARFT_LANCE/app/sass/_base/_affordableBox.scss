@@ -1,0 +1,125 @@
+.affordableTitle {
+	color: $colorAffordableTitle;
+	text-align: center;
+	margin: 100px 0 0 0;
+	font-size: 35px;
+}
+.affordablelink {
+	margin: 50px 0 30px 0;
+	text-align: center;
+	position: relative;
+}
+.affordableBusiness {
+	padding: 10px 30px;
+	position: relative;
+	left: 3px;
+	border-radius: 20px 0 0 20px;
+	text-decoration: none;
+	font-size: 14px;
+	border: 1px solid #000;
+}
+.affordableCommunity {
+	padding: 10px 30px;
+	position: relative;
+	right: 3px;
+	border-radius: 0 20px 20px 0px;
+	text-decoration: none;
+	font-size: 14px;
+	border: 1px solid #000;
+}
+.affordableOr {
+	position: absolute;
+	z-index: 1;
+	text-transform: uppercase;	
+	margin: -8px 0 0 -20px;
+	padding: 8px 5px;
+	border-radius: 20px;
+	text-decoration: none;
+	background: $colorAffordableOrBg;
+}
+.affordableBusiness,
+.affordableCommunity,
+.affordableOr {
+	color: $colorAffordableOrText;
+	border: 1px solid $colorAffordableOrBd;
+}
+.affordableOr {
+	color: $colorAffordableOrTexts;
+}
+.affordableActive {
+	color: $colorAffordableActiveText;
+	background: $colorAffordableActiveBg;
+}
+.affordableBoxBusiness {
+	text-align: center;
+}
+.BoxBusinessPrice {
+	width: 268px;
+	margin: 45px 22px 45px 22px;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid $colorBgBoxBusinessPrice;
+	transition: .3s;
+}
+.BoxBusinessPriceLineTop {
+	width: 73px;
+	border: 2px solid $colorBoxBusinessPriceLineTop;
+	margin: 0 0 0 95px;
+}
+.BoxBusinessPriceTitle {
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 20px 0 0 0;
+}
+.priceBox {
+	width: 268px;
+	height: 72px;
+	margin: 25px 0 0 0;
+	padding: 25px 0 0 0;
+	background: url(../img/Affordable/pricebg.png);
+	text-align: center;
+}
+.priceBoxMoney {
+	font-size: 25px;
+}
+.priceBoxMoneyText {
+	font-size: 13px;
+	opacity: .7;
+}
+.BoxBusinessPriceLink {
+	color: $colorBoxBusinessPriceLink;
+	font-weight: 600;
+	display: inline-block;
+	margin: 10px 0 10px 0;
+	text-decoration: none;
+}
+.BoxBusinessPriceItem i {
+	color: $colorBoxBusinessPriceItemI;
+}
+.BoxBusinessPriceItem 
+.PriceItemNoActive {
+	color: $colorPriceItemNoActive;
+}
+.BoxBusinessPriceFreeNow {
+	color: $colorBoxBusinessPriceFreeNowBdText;
+	border: 1px solid $colorBoxBusinessPriceFreeNowBd;
+	padding: 10px 35px;
+	border-radius: 20px;
+	display: inline-block;
+	text-decoration: none;
+	margin: 10px 0 10px 0;
+	text-transform: uppercase;
+}
+.BoxBusinessPrice:hover {
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.41);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.41);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.41);
+}
+.BoxBusinessPrice:hover .BoxBusinessPriceLineTop {
+	border: 2px solid $colorBdBoxBusinessPriceLineTopHov;
+}
+.BoxBusinessPrice:hover .BoxBusinessPriceFreeNow {
+	color: $colorBoxBusinessPriceLineText;
+	background: $colorBdBoxBusinessPriceLineTopHov;
+}

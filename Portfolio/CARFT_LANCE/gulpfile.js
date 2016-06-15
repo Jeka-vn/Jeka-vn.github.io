@@ -13,7 +13,7 @@ var gulp = require('gulp'),
 		});
 
 		gulp.task('rename', function() {
-			gulp.src('css/**/*.css')
+			gulp.src('css/sass/*.css')
 			.pipe(rename('style.css'))
 			.pipe(gulp.dest("./css/"));
 		});
@@ -22,5 +22,5 @@ var gulp = require('gulp'),
 
 		gulp.task('default', function() {
 			gulp.watch('./app/**/**/*.scss', ['scss']);
-			gulp.watch('./css/**/*.css', ['rename']);
+			gulp.watch('./css/sass/*.css', ['rename']);
 		});

@@ -6,6 +6,9 @@ body {
 a {
 	text-decoration: none;
 }
+label {
+	display: block;
+}
 /*header*/
 .wrapper {
 	width: 910px;

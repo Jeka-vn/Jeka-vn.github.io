@@ -27,5 +27,27 @@ $(function() {
 			})();
 		})
 	})();
-	
+	// 
+
+	(function showHideContact() {
+		$('#contact').on('click', function (e) {
+			$('.contact').css({
+				'display': 'block'
+			}).animate({
+				'opacity': '1'
+			}, 500)
+			e.preventDefault();
+			$('.contactClose > i').on('click', function () {
+				$('.contact').animate({
+					'opacity': '0'
+				}, 500);
+				function contactHide() {
+					$('.contact').css({
+						'display': 'none'
+					});
+				}
+				setTimeout(contactHide, 500);
+			})
+		})
+	})();
 });

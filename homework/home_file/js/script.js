@@ -3,8 +3,10 @@ $(function() {
 	(function preview() {
 
 		$('.contentHover > i').on('click', function () {
-			var $index = $('.contentHover > i').index(this);
-			var $contentImgAttr = $('.contentImg').eq($index).attr('data');
+			var $index = $('.contentHover > i').index(this),
+					$contentImgAttr = $('.contentImg').eq($index).attr('data'),
+					$contentLinkAttr = $('.contentHoverLink').eq($index).attr('data'),
+					$contentHoverAttrHref = $('.contentHoverLink').eq($index).attr('href');
 
 			(function showImg() {
 				$('.show').css({
@@ -13,6 +15,10 @@ $(function() {
 					'opacity': '1'
 				}, 500)
 				$('.show').append('<span class="fa fa-times fa-2x" aria-hidden="true"></span>');
+				$('.show').append('<a href="'+$contentLinkAttr+'" target="_blank" title="Просмотреть страницу" class="previewFullPage">');
+				$('.show').append('<a href="'+$contentHoverAttrHref+'" target="_blank" title="Перейти в папку с проектом" class="previewPageFolder">');
+				$('.previewFullPage').append('<i class="fa fa-desktop" aria-hidden="true"></i>');
+				$('.previewPageFolder').append('<i class="fa fa-code" aria-hidden="true"></i>');
 				$('.show').append('<div class="showFullImgBox">');
 				$('.showFullImgBox').append('<img class="showFullImg">');
 				$('.showFullImg').attr('src', $contentImgAttr);
@@ -22,7 +28,7 @@ $(function() {
 						'display': 'none',
 						'opacity': '0'
 					})
-					$('.showFullImgBox, .show span').remove();
+					$('.showFullImgBox, .show span, .previewFullPage, .previewPageFolder').remove();
 				})
 			})();
 		})

@@ -30,6 +30,25 @@
 .showFullImg {
   width: 100%; }
 
+.previewFullPage,
+.previewPageFolder {
+  opacity: .7;
+  transition: .3; }
+
+.previewFullPage:hover,
+.previewPageFolder:hover {
+  opacity: 1; }
+
+.previewFullPage {
+  display: block;
+  margin: 20px 0 0 10px;
+  position: fixed; }
+
+.previewPageFolder {
+  display: block;
+  margin: 50px 0 0 10px;
+  position: fixed; }
+
 a {
   color: #e1e2e3;
   text-decoration: none; }
@@ -56,11 +75,11 @@ header {
 .menuItem {
   display: inline-block;
   transition: .3s;
-  margin: 0 5px 0 5px; }
+  margin: 0 7px 0 7px; }
 
 .menuLink {
   position: relative;
-  bottom: 4px; }
+  bottom: 5px; }
 
 .menuItem:hover {
   opacity: .6; }
@@ -159,6 +178,7 @@ header {
 .contactBox {
   width: 60%;
   padding: 10px;
+  min-height: 220px;
   background: #6e6e6e;
   margin: 2% auto;
   -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
@@ -179,10 +199,28 @@ header {
 .imgAutorBox {
   width: 200px;
   border: 8px solid #fff;
-  overflow: hidden; }
+  overflow: hidden;
+  float: left;
+  margin: 0 15px 15px 0; }
 
 .imgAutor {
   width: 200px; }
+
+.contactTextHeader {
+  display: inline-block;
+  margin: 0px 0 0 0;
+  background: #555;
+  padding: 10px 80px 10px 10px;
+  border: 1px dotted #777; }
+
+.contactTextItem {
+  display: block;
+  margin: 5px 0 5px 0; }
+
+.contactTextItem i {
+  font-size: 20px;
+  display: inline-block;
+  margin: 0 5px 0 0; }
 
 footer {
   clear: right;

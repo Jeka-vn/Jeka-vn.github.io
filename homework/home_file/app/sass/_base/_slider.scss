@@ -29,3 +29,22 @@
 .showFullImg {
 	width: 100%;
 }
+.previewFullPage,
+.previewPageFolder {
+	opacity: .7;
+	transition: .3;
+}
+.previewFullPage:hover,
+.previewPageFolder:hover {
+	opacity: 1;
+}
+.previewFullPage {
+	display: block;
+	margin: 20px 0 0 10px;
+	position: fixed;
+}
+.previewPageFolder {
+	display: block;
+	margin: 50px 0 0 10px;
+	position: fixed;
+}

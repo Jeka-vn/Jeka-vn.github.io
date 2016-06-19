@@ -13,7 +13,7 @@ var gulp = require('gulp'),
 		});
 
 		gulp.task('rename', function() {
-			gulp.src('css/sass/*.css')
+			gulp.src('./css/sass/*.css')
 			.pipe(rename('style.css'))
 			.pipe(gulp.dest("./css/"));
 		});

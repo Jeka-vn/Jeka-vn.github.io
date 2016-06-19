@@ -4,9 +4,9 @@ $(function() {
 
 		$('.contentHover > i').on('click', function () {
 			var $index = $('.contentHover > i').index(this),
-					$contentImgAttr = $('.contentImg').eq($index).attr('data'),
-					$contentLinkAttr = $('.contentHoverLink').eq($index).attr('data'),
-					$contentHoverAttrHref = $('.contentHoverLink').eq($index).attr('href');
+			$contentImgAttr = $('.contentImg').eq($index).attr('data'),
+			$contentLinkAttr = $('.contentHoverLink').eq($index).attr('data'),
+			$contentHoverAttrHref = $('.contentHoverLink').eq($index).attr('href');
 
 			(function showImg() {
 				$('.show').css({
@@ -49,6 +49,29 @@ $(function() {
 				}, 500);
 				function contactHide() {
 					$('.contact').css({
+						'display': 'none'
+					});
+				}
+				setTimeout(contactHide, 500);
+			})
+		})
+	})();
+	// 
+
+	(function showHideСertificate() {
+		$('#certificate').on('click', function (e) {
+			$('.certificate').css({
+				'display': 'block'
+			}).animate({
+				'opacity': '1'
+			}, 500)
+			e.preventDefault();
+			$('.certificateClose > i').on('click', function () {
+				$('.certificate').animate({
+					'opacity': '0'
+				}, 500);
+				function contactHide() {
+					$('.certificate').css({
 						'display': 'none'
 					});
 				}

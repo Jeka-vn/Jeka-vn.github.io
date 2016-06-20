@@ -24,6 +24,9 @@
 	.contentHover i {
 		margin: 10px 0 0 90px;
 	}
+	.contentItem:hover .contentImg {
+		width: 300px;
+	}
 	.contentHoverLink {
 		margin: 15px 0 0 5px;
 	}
@@ -50,6 +53,9 @@
 	.contentHover i {
 		margin: 40px 0 0 110px;
 	}
+	.contentItem:hover .contentImg {
+		width: 360px;
+	}
 	.contentHoverLink {
 		margin: 35px 0 0 5px;
 	}
@@ -59,15 +65,15 @@
 		width: 480px;
 	}
 	.menuItem {
-		margin: 0 18px 0 18px;
-	}
-	.profile {
-		display: none;
+		margin: 0 12px 0 12px;
 	}
 	.contentItem {
 		width: 417px;
 		height: 200px;
 		margin: 30px 12px 0 12px;
+	}
+	.profile {
+		display: none;
 	}
 	.contentImgBox {
 		height: 417px;
@@ -93,7 +99,7 @@
 	header {
 	}
 	.menuItem {
-		margin: 0px 0 10px 20px;
+		margin: 0px 0 10px 10px;
 		display: block;
 	}
 	.container {
@@ -115,10 +121,10 @@
 		height: 200px;
 	}
 	.contentHover i {
-		margin: 40px 0 0 110px;
+		margin: 40px 0 0 100px;
 	}
 	.contentItem:hover .contentImg {
-		width: 360px;
+		width: 305px;
 	}
 	.contentHoverLink {
 		margin: 35px 0 0 5px;

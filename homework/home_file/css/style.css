@@ -378,7 +378,7 @@ footer {
     width: 300px; }
   .contentItem {
     width: 255px;
-    height: 200px;
+    height: 150px;
     margin: 30px 12px 0 12px; }
   .contentImgBox {
     height: 255px; }
@@ -386,13 +386,15 @@ footer {
     width: 255px; }
   .contentHover {
     width: 255px;
-    height: 200px; }
+    height: 150px; }
   .contentHover i {
-    margin: 40px 0 0 100px; }
+    margin: 20px 0 0 90px; }
   .contentItem:hover .contentImg {
     width: 305px; }
   .contentHoverLink {
-    margin: 35px 0 0 5px; }
+    margin: 7px 0 0 5px; }
+  .show span {
+    right: 2px; }
   .footerContact {
     margin: 10px 0 0 10px; }
   .copyrigth {

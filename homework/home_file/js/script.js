@@ -35,6 +35,9 @@ $(function() {
 	})();
 	// 
 
+
+
+
 	(function showHideContact() {
 		$('#contact').on('click', function (e) {
 			$('.contact').css({

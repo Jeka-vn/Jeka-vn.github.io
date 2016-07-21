@@ -1,0 +1,53 @@
+@media (max-width: 1000px) {
+	.wrapper {
+		width: 720px;
+	}
+	article {
+		width: 490px;
+	}
+	.interestingBox {
+		margin: 20px 0 0 0;
+	}
+	table td {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 760px) {
+	.wrapper {
+		width: 440px;
+	}
+	.interestingBox {
+		display: none;
+	}
+	article {
+		width: 440px;
+	}
+	.interestingBox {
+		margin: 20px 0 0 0;
+	}
+	table td {
+		font-size: 12px;
+	}
+	.tableTitle {
+		padding: 5px 0 5px 0;
+	}
+}
+@media (max-width: 480px) {
+	.wrapper {
+		width: 320px;
+	}
+	.searchIn {
+		width: 100px;
+	}
+	article {
+		width: 320px;
+	}
+	.tableTitle {
+		padding: 5px 3px 5px 3px;
+	}
+	table td {
+		font-size: 10px;
+	}
+
+}

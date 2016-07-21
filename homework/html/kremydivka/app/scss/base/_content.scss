@@ -1,0 +1,69 @@
+// content
+.content,
+.sideBarBox {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.content {
+	width: 68%;
+}
+// sidebar
+.sideBarBox {
+	width: 30%;
+	margin: 0 1.6% 0 0;
+	transition: .3s;
+}
+.siderbar,
+.contentBox {
+	margin: 0 0 15px 0;
+	padding: 10px;
+	background: $sidebarColorBg;
+	border-bottom: 1px solid $borderBoxColor;
+}
+.menu a {
+	color: $menuColorLink;
+	font-weight: bold;
+	line-height: 24px;
+	display: block;
+}
+.menu a:hover {
+	opacity: .8;
+}
+.contentBoxImg {
+	width: 300px;
+	height: 220px;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: top;
+}
+.contentImg {
+	width: 100%;
+	transition: .3s;
+}
+.contentBoxText {
+	width: 510px;
+	margin: 0 0 0 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+.ContentTitle {
+	font-size: 20px;
+}
+.ContentTitleLink {
+	color: $ContentTitleColor;
+}
+.ContentTitleDate {
+	display: inline-block;
+	margin: 0 0 0 10px;
+	font-size: 12px;
+}
+.contentBoxText p {
+	font-size: 14px;
+	line-height: 19px;
+	margin: 10px 0 0 0;
+}
+.contentBox:hover .contentImg {
+	width: 110%;
+	margin: -15px 0 0 -15px;
+}

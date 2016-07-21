@@ -1,0 +1,87 @@
+// article
+
+article {
+	width: 710px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 0 25px 0;
+}
+.articlePosts {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 20px;
+	padding: 0 10px 0 0;
+	margin: 25px 0 0 0;
+}
+.postsTitle {
+	margin: 0 0 20px 0;
+}
+.postsTitleLink {
+	color: $postsTitleLinkColor;
+	font-size: 20px;
+}
+.postsTableTitle {
+	margin: 25px 0 18px 0;
+	font-weight: normal;
+}
+.postsTableB {
+	font-weight: 700;
+}
+.tableTitle {
+	padding: 7px 9px;
+	background: rgba(237,237,237,1);
+	background: -moz-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(204,204,204,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(237,237,237,1)), color-stop(100%, rgba(204,204,204,1)));
+	background: -webkit-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(204,204,204,1) 100%);
+	background: -o-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(204,204,204,1) 100%);
+	background: -ms-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(204,204,204,1) 100%);
+	background: linear-gradient(to bottom, rgba(237,237,237,1) 0%, rgba(204,204,204,1) 100%);
+}
+.tableTitle:first-child {
+	border-radius: 10px 0 0 0;
+}
+.tableTitle:last-child {
+	border-radius: 0 10px 0 0;
+}
+.postList {
+	margin: 25px 0 0 0;
+}
+.postLIstTitle {
+	margin: 0 0 25px 0;
+}
+.postLIstNormal {
+	font-weight: normal;
+}
+.postLIstItem {
+	margin: 0 0 0 30px;
+}
+.postLIstItem:before {
+	content: "-";
+}
+// interesting
+.interestingBox {
+	width: 220px;
+	display: inline-block;
+	vertical-align: top;
+}
+.interestingQ {
+	padding: 10px;
+	font-style: italic;
+	line-height: 20px;
+	background: url(../img/imgSite/interestingbg.jpg) no-repeat right top $interestingQBG;
+	margin: 0 0 15px 0;
+}
+.interestingNews {
+	margin: 15px 0 0 0;
+}
+.interestingNews {
+	width: 220px;
+	overflow: hidden;
+	display: inline-block;
+}
+.interestingNewsText {
+	color: $interestingNewsTextColor;
+	font-size: 14px;
+	margin: 5px 0 0 0;
+	font-weight: bold;
+}

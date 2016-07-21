@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+a {
+	text-decoration: none;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+blockquote {
+	margin: 25px 0 25px 35px;
+	background: $colorBlockquoteBg;
+	padding: 11px;
+	border-left: 6px solid $colorBorderLeftBlockquote;
+	border-bottom: 1px solid $colorBorderBlockquote;
+	border-top: 1px solid $colorBorderBlockquote;
+	border-right: 1px solid $colorBorderBlockquote;
+}
+table {
+	width: 100%;
+	border: 1px solid $tableBorderColor;
+	border-radius: 10px 10px 0 0;
+	margin: 0 0 25px 0;
+}
+table td {
+	padding: 3px;
+	border: 1px solid $tableBorderColor;
+}
+.wrapper {
+	width: 960px;
+	padding: 0 7px 0 7px;
+	margin: 20px auto auto;
+	position: relative;
+}
+.Social {
+	display: inline-block;
+}
+.SocialItem {
+	display: inline-block;
+}
+.SocialLink {
+	width: 24px;
+	height: 25px;
+	display: inline-block;
+	background: url(../img/imgSite/social.png);
+	opacity: 1;
+	transition: .3s;
+}
+.SocialLinkVk {
+	background-position: 0 0;
+}
+.SocialLinkFb {
+	background-position: -28px 0;
+}
+.SocialLinkTw {
+	background-position: -56px 0;
+}
+.SocialLinkGo {
+	width: 40px;
+	background-position: 40px 0;
+}
+.SocialLink:hover {
+	opacity: .7;
+}
+// search
+.formSearch {
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+	right: 0;
+	margin: 0 10px 0 0;
+}
+.searchIn {
+	width: 130px;
+	height: 20px;
+	background: $searchBgColor;
+	border: 1px solid $searchBorderColor;
+	padding: 0 10px 0 10px;
+}
+// 
+.newsHeader {
+	margin: 18px 0 0 0;
+	border-top: 1px solid $newsHeaderBorder;
+}
+.newsHeaderTitle {
+	margin: 16px 0 0 0;
+}
+.newsHeaderTitleItem {
+	font-size: 14px;
+	padding: 0 0 0 15px;
+	background: url(../img/imgSite/newsHeaderTitleItem.jpg) no-repeat 0 4px;
+}
+.articleTitle {
+	margin: 34px 0 0 0;
+}
+.articleLink {
+	color: $articleLinkTextColor;
+	font-size: 28px;
+}
+.articleAutor {
+	margin: 12px 0 0 0;
+	text-align: right;
+}
+.articleAutorText {
+	color: $articleAutorText;
+	font-size: 14px;
+}
+.articleText {
+	font-weight: bold;
+	line-height: 22px;
+	margin: 20px 0 0 0;
+}
+
